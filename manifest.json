@@ -1,0 +1,51 @@
+{
+  "project_name": "Toaru Project DB v2.0",
+  "tree": [
+    {
+      "type": "folder",
+      "name": "JSON Data",
+      "icon": "fas fa-database",
+      "children": [
+        { "type": "file", "path": "src/json/toaru-majutsu-no-index.json" },
+        { "type": "file", "path": "src/json/toaru-majutsu-no-index-II.json" },
+        { "type": "file", "path": "src/json/toaru-majutsu-no-index-III.json" },
+        { "type": "file", "path": "src/json/toaru-kagaku-no-accelerator.json" },
+        { "type": "file", "path": "src/json/toaru-kagaku-no-railgun-T.json" }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Images",
+      "icon": "fas fa-images",
+      "children": [
+        {
+          "type": "folder",
+          "name": "anime-bg",
+          "icon": "fas fa-photo-film",
+          "children": [
+            { "type": "file", "path": "src/img/anime-bg/poster-1.png" },
+            { "type": "file", "path": "src/img/anime-bg/principal.png" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "personagem",
+          "icon": "fas fa-user",
+          "children": [
+            { "type": "file", "path": "src/img/personagem/Accelerator-com-IA.jpg" },
+            { "type": "file", "path": "src/img/personagem/Accelerator-sem-IA.jpg" },
+            { "type": "file", "path": "src/img/personagem/fundo-lest-order.jpg" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "img-login",
+          "icon": "fas fa-sign-in-alt",
+          "children": [
+            { "type": "file", "path": "src/img/img-login/imagem-em-hd-AI.jpg" }
+          ]
+        }
+      ]
+    }
+  ]
+}

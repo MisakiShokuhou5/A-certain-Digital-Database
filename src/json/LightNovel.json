@@ -1,0 +1,219 @@
+{
+    "Toaru Majutsu no Index": {
+        "Academic City Saga": {
+            "Index Arc": {
+                "Volume 1": {
+                    "Capa": "Index_v1.jpg",
+                    "Português": "Index_v1_pt.jpg",
+                    "English": "Index_v1.en.jpg"
+                }
+            },
+            "Deep Blood Arc": {
+                "Volume 2": {
+                    "Capa": "Index_v2.jpg",
+                    "Português": "Index_v2_pt.pdf",
+                    "English": "Index_v2_en.pdf"
+                }
+            },
+            "Sisters Arc (Index)": {
+                "Volume 3": {
+                    "Capa": "Index_v3.jpg",
+                    "Português": "Index_v3_pt.pdf",
+                    "English": "Index_v3_en.pdf"
+                }
+            },
+            "Angel FallDown Arc": {
+                "Volume 4": {
+                    "Capa": "Index_v4.jpg",
+                    "Português": "Index_v4_pt.pdf",
+                    "English": "Index_v4_en.pdf"
+                }
+            },
+            "Three Stories Arc": {
+                "Volume 5": {
+                    "Capa":"Index_v5.jpg",
+                    "Português":"Index_v5_pt.pdf",
+                    "English": "Index_v5_en.pdf"
+                }
+            },
+            "Kazakiri Hyouka Arc": {
+                "Volume 6": {
+                    "Capa": "Index_v6.jpg",
+                    "Português": "Index_v6_pt.pdf",
+                    "English": "Index_v6_en.pdf"
+                }
+            }
+        },
+        "Catholic Roman Church Saga": {
+            "Orsola Acquinas Rescue Arc": {
+                "Volume 7": {
+                    "Capa": "Index_v7.jpg",
+                    "Português": "Index_v7_pt.pdf",
+                    "English":"Index_v7_en.pdf"
+                }
+            },
+            "Tree Diagram Remnant Arc": {
+                "Volume 8": {
+                    "Capa": "Index_v8.jpg",
+                    "Português": "Index_v8_pt.pdf",
+                    "English": "Index_v8_en.pdf"
+                }
+            },
+            "Daihasei Festival Arc (Index)": {
+                "Volume 9": {
+                    "Capa": [
+                        "Index_v9.jpg"
+                    ],
+                    "Português": "Index_v9_pt.pdf",
+                    "English": "Index_v9_en.pdf"
+                },
+                "Volume 10": {
+                    "Capa": "Index_v10.jpg",
+                    "Português": "Index_v10.pdf",
+                    "English": "Index_v10.en.pdf"
+                }
+            },
+            "La Regina del Mar Adriatico": {
+                "Volume 11": {
+                    "Capa":"Index_v11.jpg",
+                    "Português": "Index_v11_pt.pdf",
+                    "English": "Index_v11_en.pdf"
+                }
+            }
+        },
+        "God's Right Seat Saga": {
+            "Academic City Invasion Arc": {
+                "Volume 12": {
+                    "Capa": "Index_v12.jpg",
+                    "Português": "Index_v12_pt.pdf",
+                    "English": "Index_v12_en.pdf"
+                },
+                "Volume 13": {
+                    "Capa": "Index_v13.jpg",
+                    "Português": "Index_v13_pt.pdf",
+                    "English": "Index_v13_en.pdf"
+                }
+            },
+            "Skill-Out Uprising Arc": {
+                "Volume SS": {
+                    "Capa": "Index_vSS.jpg",
+                    "Português": "Index_vSS_pt.pdf",
+                    "English": "Index_vSS_en.pdf"
+                }
+            },
+            "Document of Constantine Arc": {
+                "Volume 14": {
+                    "Capa": "Index_v14.jpg",
+                    "Português": "Index_v14_pt.pdf",
+                    "English": "Index_v14_en.pdf"
+                }
+            },
+            "Acqua of the Back Arc": {
+                "Volume 15": {
+                    "Capa": [
+                        "Index_v15.jpg"
+                    ],
+                    "Português": "Index_v15_pt.pdf",
+                    "English": "Index_v15_en.pdf"
+                }
+            },
+            "Battle Royale Arc": {
+                "Volume 16": {
+                    "Capa": "Index_v16.jpg",
+                    "Português": "Index_v16_pt.pdf",
+                    "English": "Index_v16_en.pdf"
+                }
+            },
+            "British Royal Family Arc": {
+                "Volume 17": {
+                    "Capa": "Index_v17.jpg",
+                    "Português": "Index_v17_pt.pdf",
+                    "English": "Index_v17_en.pdf"
+                },
+                "Volume 18": {
+                    "Capa": "Index_v18.jpg",
+                    "Português": "Index_v18_pt.pdf",
+                    "English": "Index_v18_en.pdf"
+                }
+            },
+            "DRAGON Arc": {
+                "Volume 19": {
+                    "Capa": "Index_v19_pt.pdf",
+                    "Português": "Index_v19_pt.pdf",
+                    "English": "Index_v19_en.pdf"
+                }
+            },
+            "World War III": {
+                "Volume 20": {
+                    "Capa": "Index_v20.jpg",
+                    "Português": "Index_v20_pt.pdf",
+                    "English": "Index_v20_en.pdf"
+                },
+                "Volume 21": {
+                    "Capa": "Index_v21.pdf",
+                    "Português": "Index_v21_pt.pdf",
+                    "English": "Index_v21_en.pdf"
+                },
+                "Volume 22": {
+                    "Capa": "Index_v22_.pdf",
+                    "Português": "Index_v22_pt.pdf",
+                    "English": "Index_v22_en.pdf"
+                }
+            }
+        }
+    },
+    "Toaru Anbu no ITEM": {
+        "Enemy ITEM Arc": {
+            "Volume 1": {
+                "Capa": [
+                    "ITEM_v1.jpg"
+                ],
+                "Português": [
+                    "ITEM_v1_pt.pdf"
+                ],
+                "English": [
+                    "ITEM_v1_en.pdf"
+                ]
+            }
+        },
+        "Honey Bee Queen Arc": {
+            "Volume 2": {
+                "Capa": [
+                    "ITEM_v2.jpg"
+                ],
+                "Português": [
+                    "ITEM_v2_pt.pdf"
+                ],
+                "English": [
+                    "ITEM_v2_en.pdf"
+                ]
+            }
+        },
+        "Dark Justice Arc": {
+            "Volume 3": {
+                "Capa": [
+                    "ITEM_v3.jpg"
+                ],
+                "Português": [
+                    "ITEM_v3_pt.pdf"
+                ],
+                "English": [
+                    "ITEM_v3_en.pdf"
+                ]
+            }
+        },
+        "Mugino's Family Arc": {
+            "Volume 4": {
+                "Capa": [
+                    "ITEM_v4.jpg"
+                ],
+                "Português": [
+                    "ITEM_v4_pt.pdf"
+                ],
+                "English": [
+                    "ITEM_v4_en.pdf"
+                ]
+            }
+        }
+    }
+}
