@@ -3,8 +3,8 @@
   "tree": [
     {
       "type": "folder",
-      "name": "Streaming",
-      "icon": "fas fa-video",
+      "name": "JSON Data",
+      "icon": "fas fa-database",
       "children": [
         { "type": "file", "path": "src/json/toaru-majutsu-no-index.json" },
         { "type": "file", "path": "src/json/toaru-majutsu-no-index-II.json" },
@@ -60,7 +60,7 @@
     },
     {
       "type": "folder",
-      "name": "Site",
+      "name": "site",
       "icon": "fas fa-folder",
       "children": [
         {
@@ -84,7 +84,7 @@
           "name": "Light Novel",
           "icon": "fas fa-folder",
           "children": [
-            { "type": "file", "path": "src/json/LightNovel.json" }
+            { "type": "file", "path": "src/json/LightNovel" }
           ]
         },
          {
@@ -92,10 +92,10 @@
           "name": "Tier List",
           "icon": "fas fa-folder",
           "children": [
-            { "type": "file", "path": "src/json/Characters.json" }
+            { "type": "file", "path": "src/json/Charecters.json" }
           ]
         },
-        {
+         {
           "type": "folder",
           "name": "Arcos",
           "icon": "fas fa-folder",

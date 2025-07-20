@@ -49,3 +49,26 @@ button{
     border: none;
     cursor: pointer;
 }
+
+/* Estilos para transformar o link <a> em um botão lindo */
+.btn-principal {
+    display: inline-block; /* Permite definir padding e outras propriedades de bloco */
+    background-color: #8a2be2; /* Cor de fundo "BlueViolet" */
+    color: #ffffff; /* Cor do texto */
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    padding: 15px 30px; /* Espaçamento interno (vertical e horizontal) */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: none; /* Remove qualquer borda */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animação suave para todas as transições */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn-principal:hover {
+    background-color: #9932cc; /* Tom de roxo um pouco mais escuro */
+    transform: translateY(-3px); /* Eleva o botão levemente */
+    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.4); /* Aumenta a sombra para um efeito "glow" */
+}
