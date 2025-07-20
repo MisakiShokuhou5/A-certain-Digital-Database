@@ -1,0 +1,6 @@
+# netlify.toml
+
+[[headers]]
+  for = "/src/json/*" # Aplica a regra apenas para a pasta json
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
