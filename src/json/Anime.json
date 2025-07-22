@@ -24,7 +24,7 @@
         {
             "nome": "A certain Magical Index: Milagre de Endymion",
             "anoLancado": "2013",
-            "FundoImagem": "https://images6.alphacoders.com/750/thumb-1920-750466.png",
+            "FundoImagem": "https://upload.wikimedia.org/wikipedia/it/4/43/A_Certain_Magical_Index_The_Movie_%EF%BC%8DThe_Miracle_of_Endymion.png",
             "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
         }],
 
@@ -44,7 +44,7 @@
         "Toaru Kagaku no Railgun T": {
             "nome": "A certain scientific Railgun T",
             "anoLancado": "2020",
-            "FundoImagem": "",
+            "FundoImagem": "https://www.anime-planet.com/images/anime/screenshots/a-certain-scientific-railgun-t-11779-1.jpg",
             "logo" :""
         },
                 
@@ -67,7 +67,7 @@
         "Toaru Anbu no ITEM": {
             "nome": "A certain dark-sided ITEM",
             "anoLancado": "2025",
-            "FundoImagem": "https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/1/1b/Toaru_Anbu_no_Item.jpg/revision/latest?cb=20221227161254",
+            "FundoImagem": "https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/1/1b/Toaru_Anbu_no_Item.jpg",
             "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
         }
     }
