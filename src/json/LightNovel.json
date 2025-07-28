@@ -3,9 +3,9 @@
         "Academic City Saga": {
             "Index Arc": {
                 "Volume 1": {
-                    "Capa": "Index_v1.jpg",
-                    "Português": "Index_v1_pt.jpg",
-                    "English": "Index_v1.en.jpg"
+                    "Capa": "../img/Light Novel/fundo.jpg",
+                    "Português": "../img/Light Novel/Index_v1_pt.jpg",
+                    "English": "../img/Light Novel/Index_v1.en.jpg"
                 }
             },
             "Deep Blood Arc": {

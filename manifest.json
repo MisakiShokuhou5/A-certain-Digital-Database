@@ -14,6 +14,14 @@
         {"type": "file" , "path": "src/json/Anime.json"}
       ]
     },
+     {
+      "type": "folder",
+      "name": "Light Novel - Nova",
+      "icon": "fas fa-folder",
+      "children": [
+        { "type": "file", "path": "src/json/LightNovel.json"}
+      ]
+    },
     {
       "type": "folder",
       "name": "Images",
