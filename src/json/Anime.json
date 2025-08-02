@@ -1,0 +1,74 @@
+{
+    "Toaru Majutsu no Index": [
+            {
+            "nome": "A certain Magical Index",
+            "anoLancado": "2008",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/A4CJxtk3T6DkeyCkgOEV7TMo2Hu.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        },
+
+            {
+            "nome": "A certain Magical Index II",
+            "anoLancado": "2010",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/zdzd6zayIG4KnfIN22t1wdDRVcn.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        },
+
+            {
+            "nome": "a certain magical Index III",
+            "anoLancado": "2018",
+            "FundoImagem": "https://i.ytimg.com/vi/6dOsskwHifU/maxresdefault.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        },
+
+        {
+            "nome": "A certain Magical Index: Milagre de Endymion",
+            "anoLancado": "2013",
+            "FundoImagem": "https://upload.wikimedia.org/wikipedia/it/4/43/A_Certain_Magical_Index_The_Movie_%EF%BC%8DThe_Miracle_of_Endymion.png",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        }],
+
+    "Toaru Kagaku no Railgun": {
+        "Toaru Kagaku no Railgun": {
+            "nome": "A certain scientific Railgun",
+            "anoLancado": "2009",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/1XNqQkRWSwWtXQ0BuQ95wjcs9SP.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        },
+        "Toaru Kagaku no Railgun S": {
+            "nome": "A certain scientific Railgun S",
+            "anoLancado": "2013",
+            "FundoImagem": "https://images6.alphacoders.com/750/thumb-1920-750466.png",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        },
+        "Toaru Kagaku no Railgun T": {
+            "nome": "A certain scientific Railgun T",
+            "anoLancado": "2020",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/7x5e1g89giH5PjK0ACpsXcj2whz.jpg",
+            "logo" :""
+        },
+                
+        "Upcoming": {
+            "nome": "upcoming",
+            "anoLancado": "2025",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/oVbrQCFDxANwxKvAej5b167tnqL.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        }
+    },
+    "Toaru Kagaku no Accelerator": {
+        "Toaru Kagaku no Accelerator": {
+            "nome": "A certain Scientific Accelerator",
+            "anoLancado": "2019",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/szik5Kiquh9PO3dJhzFJNCpbxcG.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        }
+    },
+    "Toaru Anbu no ITEM": {
+        "Toaru Anbu no ITEM": {
+            "nome": "A certain dark-sided ITEM",
+            "anoLancado": "2025",
+            "FundoImagem": "https://image.tmdb.org/t/p/original/yGm6xXTKdWNx45UEWvzqMZ3aJQE.jpg",
+            "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/1200px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+        }
+    }
+}

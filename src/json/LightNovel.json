@@ -1,0 +1,425 @@
+{
+    "Toaru Majutsu no Index": {
+        "Academic City Saga": {
+            "Index Arc": {
+                "Volume 1": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v1_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v1_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v1.en.pdf"
+                }
+            },
+            "Deep Blood Arc": {
+                "Volume 2": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v2_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v2_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v2_en.pdf"
+                }
+            },
+            "Sisters Arc (Index)": {
+                "Volume 3": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v3_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v3_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v3_en.pdf"
+                }
+            },
+            "Angel FallDown Arc": {
+                "Volume 4": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v4_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v4_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v4_en.pdf"
+                }
+            },
+            "Three Stories Arc": {
+                "Volume 5": {
+                    "Capa":"../src/img/LightNovel/Capa/Index_v5_cover.jpg",
+                    "Português":"../src/img/LightNovel/Português/Index_v5_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v5_en.pdf"
+                }
+            },
+            "Kazakiri Hyouka Arc": {
+                "Volume 6": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v6_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v6_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v6_en.pdf"
+                }
+            }
+        },
+        "Catholic Roman Church Saga": {
+            "Orsola Acquinas Rescue Arc": {
+                "Volume 7": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v7_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v7_pt.pdf",
+                    "English":"../src/img/LightNovel/English/Index_v7_en.pdf"
+                }
+            },
+            "Tree Diagram Remnant Arc": {
+                "Volume 8": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v8_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v8_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v8_en.pdf"
+                }
+            },
+            "Daihasei Festival Arc (Index)": {
+                "Volume 9": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v9_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v9_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v9_en.pdf"
+                },
+                "Volume 10": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v10_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v10.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v10.en.pdf"
+                }
+            },
+            "La Regina del Mar Adriatico": {
+                "Volume 11": {
+                    "Capa":"../src/img/LightNovel/Capa/Index_v11_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v11_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v11_en.pdf"
+                }
+            }
+        },
+        "God's Right Seat Saga": {
+            "Academic City Invasion Arc": {
+                "Volume 12": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v12_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v12_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v12_en.pdf"
+                },
+                "Volume 13": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v13._cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v13_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v13_en.pdf"
+                }
+            },
+            "Skill-Out Uprising Arc": {
+                "Volume SS": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_vSS_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_vSS_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_vSS_en.pdf"
+                }
+            },
+            "Document of Constantine Arc": {
+                "Volume 14": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v14_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v14_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v14_en.pdf"
+                }
+            },
+            "Acqua of the Back Arc": {
+                "Volume 15": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v15_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v15_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v15_en.pdf"
+                }
+            },
+            "Battle Royale Arc": {
+                "Volume 16": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v16_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v16_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v16_en.pdf"
+                }
+            },
+            "British Royal Family Arc": {
+                "Volume 17": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v17_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v17_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v17_en.pdf"
+                },
+                "Volume 18": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v18_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v18_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v18_en.pdf"
+                }
+            },
+            "DRAGON Arc": {
+                "Volume 19": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v19_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v19_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v19_en.pdf"
+                }
+            },
+            "World War III": {
+                "Volume 20": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v20_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v20_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v20_en.pdf"
+                },
+                "Volume 21": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v21_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v21_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v21_en.pdf"
+                },
+                "Volume 22": {
+                    "Capa": "../src/img/LightNovel/Capa/Index_v22_cover.jpg",
+                    "Português": "../src/img/LightNovel/Português/Index_v22_pt.pdf",
+                    "English": "../src/img/LightNovel/English/Index_v22_en.pdf"
+                }
+            }
+        }
+    },
+    "A Certain Magical Index: New Testament": {
+        "Gremlin Saga": {
+            "Freshmen Arc":{
+                "Volume 1":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v1_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v1_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v1_pt.pdf"
+                } 
+            },
+            "Homecoming Arc": {
+                "Volume 2":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v2_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v2_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v2_pt.pdf"
+                }   
+            },
+            "Hawaii Invasion Arc": {
+                "Volume 3":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v3_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v3_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v3_pt.pdf"
+                }   
+            },
+            "Baggage City Arc": {
+               "Volume 4":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v4_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v4_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v4_pt.pdf"
+                } 
+            },
+            "Ichinaran Festival Arc": {
+                "Volume 5":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v5_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v5_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v5_pt.pdf"
+                }, 
+                "Volume 6":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v6_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v6_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v6_pt.pdf"
+                } 
+            },
+            "Agitate Halation Arc": {
+                "Volume 7":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v7_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v7_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v7_pt.pdf"
+                } 
+            },
+            "Magic God Othinus Arc": {
+                "Volume 8":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v8_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v8_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v8_pt.pdf"
+                }, 
+                "Volume 9":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v9_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v9_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v9_pt.pdf"
+                },
+                "Volume 10":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v10_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v10_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v10_pt.pdf"
+                }  
+            }
+        },
+        "Fall of Academic City Saga": {
+            "Mental Out Arc": {
+                "Volume 11":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v11_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v11_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v11_pt.pdf"
+                }
+            },
+            "St. Germain Arc": {
+                "Volume 12":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v12_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v12_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v12_pt.pdf"
+                }
+            },
+            "Magic God Invasion Arc": {
+                "Volume 13":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v13_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v13_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v13_pt.pdf"
+                }
+            },
+            "World Rejecter Arc": {
+                "Volume 14":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v14_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v14_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v14_pt.pdf"
+                }
+            },
+            "Salome Arc": {
+                "Volume 15":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v15_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v15_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v15_pt.pdf"
+                }
+            },
+            "Element Arc": {
+                "Volume 16":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v16_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v16_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v16_pt.pdf"
+                }
+            },
+            "Kamisato Rescue Arc": {
+                "Volume 17":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v17_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v17_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v17_pt.pdf"
+                }
+            },
+            "Aleister Crowley Arc": {
+                "Volume 18":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v18_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v18_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v18_pt.pdf"
+                }
+            },
+            "Processor Suit Arc": {
+                "Volume 19":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v19_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v19_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v19_pt.pdf"
+                }
+            },
+            "Coronzon Arc": {
+                "Volume 20":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v20_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v20_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v20_pt.pdf"
+                },
+                "Volume 21":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v21_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v21_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v21_pt.pdf"
+                },
+                "Volume 22":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v22_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v22_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v22_pt.pdf"
+                }
+            },
+            "Kamijou Arc": {
+                "Volume 22 Reverse":{
+                    "Capa": "../src/img/LightNovel/Capa/NT_v22_Reverse_cover.jpg",
+                    "English": "../src/img/LightNovel/English/NT_v22_Reverse_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/NT_v22_Reverse_pt.pdf"
+                }
+            }
+        }
+    },
+    "A Certain Magical Index: Genesis Testament": {
+        "R&C Occultics Saga": {
+            "Christmas Eve Arc": {
+                "Volume 1": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v1_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v1_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v1_pt.pdf"
+                }
+            },
+            "Christmas Day Arc": {
+                "Volume 2": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v2_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v2_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v2_pt.pdf"
+                }
+            },
+            "Operation Handcuffs Arc": {
+                "Volume 3": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v3_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v3_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v3_pt.pdf"
+                }
+            },
+            "Los Angeles Arc": {
+                "Volume 4": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v4_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v4_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v4_pt.pdf"
+                }
+            }
+        },
+        "Transcendent Arc": {
+            "Post-Handcuffs Arc": {
+                "Volume 5": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v5_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v5_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v5_pt.pdf"
+                }
+            },
+            "New Year's Eve Arc": {
+                "Volume 6": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v6_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v6_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v6_pt.pdf"
+                }
+            },
+            "New Year's Arc": {
+                "Volume 7": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v7_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v7_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v7_pt.pdf"
+                },
+                "Volume 8": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v8_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v8_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v8_pt.pdf"
+                },
+                "Volume 9": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v9_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v9_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v9_pt.pdf"
+                },
+                "Volume 10": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v10_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v10_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v10_pt.pdf"
+                }
+            },
+            "Hell Tour Arc": {
+                "Volume 11": {
+                    "Capa": "../src/img/LightNovel/Capa/GT_v11_cover.jpg",
+                    "English": "../src/img/LightNivel/English/GT_v11_en.pdf",
+                    "Português": "../src/img/LightNovel/Português/GT_v11_pt.pdf"
+                }
+            }
+        }
+    },
+    "A Certain Dark Sided ITEM": {
+        "Enemy ITEM Arc": {
+            "Volume 1": {
+                "Capa": "../src/img/LightNovel/Capa/ITEM_v1_cover.jpg",
+                "Português": "../src/img/LightNovel/Português/ITEM_v1_pt.pdf",
+                "English": "../src/img/LightNovel/English/ITEM_v1_en.pdf"
+            }
+        },
+        "Honey Bee Queen Arc": {
+            "Volume 2": {
+                "Capa": "../src/img/LightNovel/ITEM_v2_cover.jpg",
+                "Português": "../src/img/LightNovel/Português/ITEM_v2_pt.pdf",
+                "English": "../src/img/LightNovel/English/ITEM_v2_en.pdf"
+            }
+        },
+        "Dark Justice Arc": {
+            "Volume 3": {
+                "Capa": "../src/img/LightNovel/ITEM_v3_cover.jpg",
+                "Português": "../src/img/LightNovel/Português/ITEM_v3_pt.pdf",
+                "English": "../src/img/LightNovel/English/ITEM_v3_en.pdf"
+            }
+        },
+        "Mugino's Family Arc": {
+            "Volume 4": {
+                "Capa": "../src/img/LightNovel/ITEM_v4_cover.jpg",
+                "Português": "../src/img/LightNovel/Português/ITEM_v4_pt.pdf",
+                "English": "../src/img/LightNovel/English/ITEM_v4_en.pdf"
+            }
+        }
+    }
+}

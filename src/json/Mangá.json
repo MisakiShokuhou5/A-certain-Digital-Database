@@ -1,0 +1,4275 @@
+{
+  "Toaru Majutsu no Index": {
+    "Academic City Saga": {
+      "Index Arc": {
+        "Volume 1": {
+          "Capa": "Index_v1_cover.jpg",
+          "Capítulo 1": {
+            "Capa": "Index_c1_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c1_pg",
+              "Número": 42,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 2": {
+            "Capa": "Index_c2_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c2_pg",
+              "Número": 32,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 3": {
+            "Capa": "Index_c3_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c3_pg",
+              "Número": 34,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 4": {
+            "Capa": "Index_c4_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c4_pg",
+              "Número": 28,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 5": {
+            "Capa": "Index_c5_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c5_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 2": {
+          "Capa": "Index_v2_cover.jpg",
+          "Capítulo 6": {
+            "Capa": "Index_c6_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v2_c1_pg",
+              "Número": 42,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 7": {
+            "Capa": "Index_c7_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v2_c2_pg",
+              "Número": 32,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 8": {
+            "Capa": "Index_c8_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v2_c3_pg",
+              "Número": 34,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 9": {
+            "Capa": "Index_c9_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v2_c4_pg",
+              "Número": 28,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 10": {
+            "Capa": "Index_c10_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v2_c5_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Sisters Arc (Index)": {
+        "Volume 3": {
+          "Capa": "Index_v3_cover.jpg",
+          "Capítulo 11": {
+            "Capa": "Index_c11_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v3_c1_pg",
+              "Número": 42,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 12": {
+            "Capa": "Index_c12_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v3_c2_pg",
+              "Número": 32,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 13": {
+            "Capa": "Index_c13_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v3_c3_pg",
+              "Número": 34,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 14": {
+            "Capa": "Index_c14_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v3_c4_pg",
+              "Número": 28,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 15": {
+            "Capa": "Index_c15_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v3_c5_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 4": {
+          "Capa": "Index_v4_cover.jpg",
+          "Capítulo 16": {
+            "Capa": "Index_c16_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v4_c1_pg",
+              "Número": 42,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 17": {
+            "Capa": "Index_c17_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v4_c2_pg",
+              "Número": 32,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 18": {
+            "Capa": "Index_c18_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c3_pg",
+              "Número": 34,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 19": {
+            "Capa": "Index_c19_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v1_c4_pg",
+              "Número": 28,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 20": {
+            "Capa": "Index_c20_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v4_c5_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 21": {
+            "Capa": "Index_c21_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v4_c6_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Three Stories Arc": {
+        "Volume 5": {
+          "Capa": [
+            "Index_v5_cover.jpg"
+          ],
+          "Capítulo 22": {
+            "Capa": "Index_c22_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v5_c1_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 23": {
+            "Capa": "Index_c23_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v5_c2_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 24": {
+            "Capa": "Index_c24_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v5_c3_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 25": {
+            "Capa": "Index_c25_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v5_c4_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 26": {
+            "Capa": "Index_c26_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v5_c5_pg",
+              "Número": 33,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 6": {
+          "Capa": [
+            "Index_v6_cover.jpg"
+          ],
+          "Capítulo 27": {
+            "Capa": "Index_c27_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 28": {
+            "Capa": "Index_c28_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 29": {
+            "Capa": "Index_c29_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v6_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 30": {
+            "Capa": "Index_c30_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v6_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 31": {
+            "Capa": "Index_c31_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v6_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 32": {
+            "Capa": "Index_c32_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v6_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 33": {
+            "Capa": "Index_c33_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v6_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Kazakiri Hyouka Arc": {
+        "Volume 7": {
+          "Capa": [
+            "Index_v7_cover.jpg"
+          ],
+          "Capítulo 34": {
+            "Capa": "Index_c34_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 35": {
+            "Capa": "Index_c35_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 36": {
+            "Capa": "Index_c36_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 37": {
+            "Capa": "Index_c37_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 38": {
+            "Capa": "Index_c38_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v7_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 8": {
+          "Capa": [
+            "Index_v8_cover.jpg"
+          ],
+          "Capítulo 39": {
+            "Capa": "Index_c39_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v8_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 40": {
+            "Capa": "Index_c40_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v8_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 41": {
+            "Capa": "Index_c41_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v8_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 42": {
+            "Capa": "Index_c42_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v8_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 43": {
+            "Capa": "Index_c43_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v8_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 44": {
+            "Capa": "Index_c44_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v8_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      }
+    },
+    "Catholic Roman Church Saga": {
+      "Orsola Acquinas Rescue Arc": {
+        "Volume 9": {
+          "Capa": [
+            "Index_v9_cover.jpg"
+          ],
+          "Capítulo 45": {
+            "Capa": "Index_c45_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v9_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 46": {
+            "Capa": "Index_c46_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v9_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 47": {
+            "Capa": "Index_c47_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v9_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 48": {
+            "Capa": "Index_c48_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v9_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 49": {
+            "Capa": "Index_c49_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v9_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 50": {
+            "Capa": "Index_c50_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v9_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 10": {
+          "Capa": [
+            "Index_v10_cover.jpg"
+          ],
+          "Capítulo 51": {
+            "Capa": "Index_c51_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 52": {
+            "Capa": "Index_c52_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 53": {
+            "Capa": "Index_c53_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 54": {
+            "Capa": "Index_c54_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 55": {
+            "Capa": "Index_c55_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 56": {
+            "Capa": "Index_c56_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 57": {
+            "Capa": "Index_c57_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v10_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Tree Diagram Remnant Arc": {
+        "Volume 11": {
+          "Capa": [
+            "Index_v11_cover.jpg"
+          ],
+          "Capítulo 58": {
+            "Capa": "Index_c58_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 59": {
+            "Capa": "Index_c59_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 60": {
+            "Capa": "Index_c60_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 61": {
+            "Capa": "Index_c61_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 62": {
+            "Capa": "Index_c62_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 63": {
+            "Capa": "Index_c63_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c6.pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 64": {
+            "Capa": "Index_c64_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 65": {
+            "Capa": "Index_c65_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v11_c8_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Daihasei Festival Arc (Index)": {
+        "Volume 12": {
+          "Capa": [
+            "Index_v12_cover.jpg"
+          ],
+          "Capítulo 66": {
+            "Capa": "Index_c66_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 67": {
+            "Capa": "Index_c67_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 68": {
+            "Capa": "Index_c68_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 69": {
+            "Capa": "Index_c69_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 70": {
+            "Capa": "Index_c70_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 13": {
+          "Capa": [
+            "Index_v13_cover.jpg"
+          ],
+          "Capítulo 71": {
+            "Capa": "Index_c71_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 72": {
+            "Capa": "Index_c72_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 73": {
+            "Capa": "Index_c73_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 74": {
+            "Capa": "Index_c74_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 75": {
+            "Capa": "Index_c75_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 76": {
+            "Capa": "Index_c76_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c6.pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 77": {
+          "Capa": "Index_c77_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v13_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 14": {
+          "Capa": "Index_v14_cover.jpg",
+          "Capítulo 78": {
+            "Capa": "Index_c78_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 79": {
+            "Capa": "Index_c79_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 80": {
+            "Capa": "Index_c80_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 81": {
+            "Capa": "Index_c81_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 82": {
+            "Capa": "Index_c82_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 83": {
+            "Capa": "Index_c83_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c6.pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 84": {
+            "Capa": "Index_c84_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 85": {
+            "Capa": "Index_c85_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v12_c8_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "La Regina Del Mar Adriatico Arc": {
+        "Volume 15": {
+          "Capa": "Index_v15_cover.jpg",
+          "Capítulo 86": {
+            "Capa": "Index_c86_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v15_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 87": {
+            "Capa": "Index_c87_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v15_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 88": {
+            "Capa": "Index_c88_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v15_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 89": {
+            "Capa": "Index_c89_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v15_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 90": {
+            "Capa": "Index_c90_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v15_c5.pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 91": {
+            "Capa": "Index_c91_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v15_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 16": {
+          "Capa": "Index_v16_cover.jpg",
+          "Capítulo 92": {
+            "Capa": "Index_c92_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v16_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 93": {
+            "Páginas": {
+              "Capa": "Index_c93_cover.jpg",
+              "Prefixo": "Index_v16_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 94": {
+            "Capa": "Index_c94_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v16_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 95": {
+            "Capa": "Index_c95_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v16_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 96": {
+            "Capa": "Index_c96_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v16_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      }
+    },
+    "Gods Right Seat Saga": {
+      "Academic City Invasion Arc": {
+        "Volume 16": {
+          "Capa": [
+            "Index_v16_cover.jpg"
+          ],
+          "Capítulo 96": {
+            "Capa": "Index_c96_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v16_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 17": {
+          "Capa": "Index_v17_cover.jpg",
+          "Capítulo 97": {
+            "Capa": "Index_c97_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 98": {
+            "Capa": "Index_c98_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 99": {
+            "Capa": "Index_c99_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 100": {
+            "Capa": "Index_c100_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 101": {
+            "Capa": "Index_c101_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 102": {
+            "Capa": "Index_c102_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 103": {
+            "Capa": "Index_c103_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 18": {
+          "Capa": [
+            "Index_v18_cover.jpg"
+          ],
+          "Capítulo 104": {
+            "Capa": "Index_c104_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 105": {
+            "Capa": "Index_c105_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 106": {
+            "Capa": "Index_c106_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 107": {
+            "Capa": "Index_c107_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 108": {
+            "Capa": "Index_c108_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 109": {
+            "Capa": "Index_c109_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 110": {
+            "Capa": "Index_c110_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 19": {
+          "Capa": [
+            "Index_v19_cover.jpg"
+          ],
+          "Capítulo 111": {
+            "Capa": "Index_c111_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 112": {
+            "Capa": "Index_c112_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 113": {
+            "Capa": "Index_c113_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 114": {
+            "Capa": "Index_c114_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 115": {
+            "Capa": "Index_c115_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v17_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Skill Out Uprising": {
+        "Volume 20": {
+          "Capa": [
+            "Index_v20_cover.jpg"
+          ],
+          "Capítulo 116": {
+            "Capa": "Index_c116_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v20_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 117": {
+            "Capa": "Index_c117_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v20_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 118": {
+            "Capa": "Index_c118_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v20_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 120": {
+            "Capa": "Index_c89_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v20_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 121": {
+            "Páginas": {
+              "Prefixo": "Index_v20_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 122": {
+            "Páginas": {
+              "Prefixo": "Index_v20_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+
+      "Anglican Church–Russian Orthodox Church Prewar Conference": {
+        "Capítulo 119": {
+          "Capa": "Index_c119_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Index_v20_c3_pg",
+            "Número": "34"
+          }
+        }
+      },
+      "Document of Constantine Arc": {
+        "Volume 21": {
+          "Capa": [
+            "Index_v21_cover.jpg"
+          ],
+          "Capítulo 123": {
+            "Capa": "Index_c123_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v21_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 124": {
+            "Capa": "Index_c124_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v21_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 125": {
+            "Capa": "Index_c125_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v21_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 126": {
+            "Capa": "Index_c126_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v21_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 127": {
+            "Capa": "Index_c127_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v21_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 128": {
+            "Capa": "Index_c128_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v21_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 22": {
+          "Capa": [
+            "Index_v22_cover.jpg"
+          ],
+          "Capítulo 129": {
+            "Capa": "Index_c129_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 130": {
+            "Capa": "Index_c130_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 131": {
+            "Capa": "Index_c131_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 132": {
+            "Capa": "Index_c132_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Battle Royale Arc": {
+        "Volume 22": {
+          "Capítulo 133": {
+            "Capa": "Index_c133_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 134": {
+            "Capa": "Index_c134_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 135": {
+            "Capa": "Index_c135_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v22_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 23": {
+          "Capa": [
+            "Index_v24_cover.jpg"
+          ],
+          "Capítulo 136": {
+            "Capa": "Index_c136_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v23_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 137": {
+            "Capa": "Index_c137_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v23_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 138": {
+            "Capa": "Index_c138_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v23_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 139": {
+            "Capa": "Index_c139_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v23_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 140": {
+            "Capa": "Index_c140_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v23_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 141": {
+            "Capa": "Index_c141_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v23_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 24": {
+          "Capa": "Index_v25_cover.jpg",
+          "Capítulo 142": {
+            "Capa": "Index_c142_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v24_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 143": {
+            "Capa": "Index_c143_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v24_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 144": {
+            "Capa": "Index_c144_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v24_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 145": {
+            "Capa": "Index_c145_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v24_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 146": {
+            "Capa": "Index_c146_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v24_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 147": {
+            "Capa": "Index_c147_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v24_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 25": {
+          "Capa": "Index_v26_cover.jpg",
+          "Capítulo 148": {
+            "Capa": "Index_c148_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 149": {
+            "Capa": "Index_c149_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "Acqua of the Back Arc": {
+        "Volume 25": {
+          "Capa": "Index_v25_cover.jpg",
+
+          "Capítulo 150": {
+            "Capa": "Index_c150_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 151": {
+            "Capa": "Index_c151_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 152": {
+            "Capa": "Index_c152_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 153": {
+            "Capa": "Index_c153_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 154": {
+            "Capa": "Index_c154_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v25_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 26": {
+          "Capa": "Index_c26_cover.jpg",
+          "Capítulo 155": {
+            "Capa": "Index_c155_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 156": {
+            "Capa": "Index_c156_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 157": {
+            "Capa": "Index_c157_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 158": {
+            "Capa": "Index_c158_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 159": {
+            "Capa": "Index_c159_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 160": {
+            "Capa": "Index_c160_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 161": {
+            "Capa": "Index_c161_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v26_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 27": {
+          "Capa": "Index_v27_cover.jpg",
+          "Capítulo 162": {
+            "Páginas": {
+              "Prefixo": "Index_v27_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 163": {
+            "Capa": "Index_c163_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v27_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 164": {
+            "Capa": "Index_c164_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v27_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "British Royal Family Arc": {
+        "Volume 27": {
+          "Capa": "Index_v27_cover.jpg",
+          "Capítulo 165": {
+            "Páginas": {
+              "Prefixo": "Index_v27_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 166": {
+            "Capa": "Index_c166_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v27_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 167": {
+            "Capa": "Index_c167_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v27_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 28": {
+          "Capa": "Index_v28_cover.jpg",
+          "Capítulo 168": {
+          "Capa": "Index_c168_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 169": {
+            "Capa": "Index_c169_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 170": {
+            "Capa": "Index_c170_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 171": {
+            "Capa": "Index_c171_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 172": {
+            "Capa": "Index_c172_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 173": {
+            "Capa": "Index_c173_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 174": {
+            "Capa": "Index_c174_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v28_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 29": {
+          "Capa": "Index_v29_cover.jpg",
+          "Capítulo 175": {
+            "Páginas": {
+              "Prefixo": "Index_v29_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 176": {
+            "Capa": "Index_c176_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v29_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 177": {
+            "Capa": "Index_c177_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v29_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 178": {
+            "Capa": "Index_c178_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v29_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 179": {
+            "Capa": "Index_c179_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v29_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 180": {
+            "Capa": "Index_c180_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v29_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 181": {
+            "Capa": "Index_c181_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v29_c8_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 30": {
+          "Capa": "Index_v30_cover.jpg",
+          "Capítulo 182": {
+            "Páginas": {
+              "Prefixo": "Index_v30_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 183": {
+            "Capa": "Index_c183_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 184": {
+            "Capa": "Index_c184_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 185": {
+            "Capa": "Index_c185_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 186": {
+            "Capa": "Index_c186_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 187": {
+            "Capa": "Index_c187_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 188": {
+            "Capa": "Index_c188_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        },
+        "Volume 31": {
+          "Capa": "Index_v31_cover.jpg",
+          "Capítulo 189": {
+            "Capa": "Index_c189_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 190": {
+            "Capa": "Index_c190_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 191": {
+            "Capa": "Index_c191_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 192": {
+            "Capa": "Index_c192_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 193": {
+            "Capa": "Index_c193_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 194": {
+            "Capa": "Index_c194_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 195": {
+            "Capa": "Index_c195_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c7_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 196": {
+            "Capa": "Index_c196_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c8_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      },
+      "DRAGON Arc": {
+        "Volume 32": {
+          "Capa": "Index_v32_cover.jpg",
+          "Capítulo 197": {
+            "Capa": "Index_c197_cover.jpg",
+            "Páginas": {
+              "Prefixo": " Index_v30_c1_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 198": {
+            "Capa": "Index_c198_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c2_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 199": {
+            "Capa": "Index_c199_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c3_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 200": {
+            "Capa": "Index_c200_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c4_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 201": {
+            "Capa": "Index_c201_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c5_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          },
+          "Capítulo 202": {
+            "Capa": "Index_c202_cover.jpg",
+            "Páginas": {
+              "Prefixo": "Index_v30_c6_pg",
+              "Número": 1,
+              "Extensão": "jpg"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Toaru Kagaku no Railgun": {
+    "Level Upper Arc": {
+      "Volume 1": {
+        "Capa": "Railgun_v1_cover.jpg",
+        "Capítulo 1": {
+          "Capa": "Railgun_c1_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v1_c1_pg",
+            "Número": 2,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 2": {
+          "Capa":"Railgun_c2_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v1_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 3": {
+          "Capa": "Railgun_c3_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v1_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 4": {
+          "Capa":"Railgun_c4_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 5": {
+          "Capa":"Railgun_c5_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 6": {
+          "Capa":"Railgun_c6_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 7": {
+          "Capa":"Railgun_c7_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 2": {
+        "Capa": "Railgun_v2_cover.jpg",
+        "Capítulo 8": {
+          "Capa":"Railgun_c8_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 9": {
+          "Capa":"Railgun_c9_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 10": {
+          "Capa":"Railgun_c10_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 11": {
+          "Capa":"Railgun_c11_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 12": {
+          "Capa":"Railgun_c12_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 13": {
+          "Capa":"Railgun_c13_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v2_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 3": {
+        "Capa": "Railgun_v3_cover.jpg",
+        "Capítulo 14": {
+          "Capa":"Railgun_c14_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v3_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 15": {
+          "Páginas": {
+            "Capa":"Railgun_c15_cover.jpg",
+            "Prefixo": "Railgun_v3_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 16": {
+          "Capa":"Railgun_c16_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v3_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 17": {
+          "Capa":"Railgun_c17_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v3_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Special": {
+          "Capa":"Railgun_special_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v3_c5.5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "Sisters Arc (Railgun)": {
+      "Volume 4": {
+        "Capa": "Railgun_v4_cover.jpg",
+        "Capítulo 18": {
+          "Capa":"Railgun_c18_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v4_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 19": {
+          "Capa":"Railgun_c19_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v4_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 20": {
+          "Capa":"Railgun_c20_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v4_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 21": {
+          "Capa":"Railgun_c21_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v4_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 22": {
+          "Capa":"Railgun_c22_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v4_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 23": {
+          "Capa":"Railgun_c23_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v4_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 5": {
+        "Capa": "Railgun_v5_cover.jpg",
+        "Capítulo 24": {
+          "Capa":"Railgun_c24_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 25": {
+          "Capa":"Railgun_c25_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 26": {
+          "Capa":"Railgun_c26_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 27": {
+          "Capa":"Railgun_c27_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 28": {
+          "Capa":"Railgun_c28_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 29": {
+          "Capa":"Railgun_c29_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 30": {
+          "Capa":"Railgun_c30_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v5_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 6": {
+        "Capa": "Railgun_v6_cover.jpg",
+        "Capítulo 31": {
+          "Capa":"Railgun_c31_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 32": {
+          "Capa":"Railgun_c32_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 33": {
+          "Capa":"Railgun_c33_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 34": {
+          "Capa":"Railgun_c34_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 35": {
+          "Capa":"Railgun_c35_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 36": {
+          "Capa":"Railgun_c36_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 37": {
+          "Capa":"Railgun_c37_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v6_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 7": {
+        "Capa": "Railgun_v7_cover.jpg",
+        "Capítulo 38": {
+          "Capa":"Railgun_c38_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 39": {
+          "Capa":"Railgun_c39_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Special": {
+          "Capa":"Railgun_special2_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c7.5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "Daihasei Festival Arc (Railgun)": {
+      "Volume 7": {
+        "Capa": [
+          "Railgun_v7_cover.jpg"
+        ],
+        "Capítulo 40": {
+          "Capa":"Railgun_c40_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 41": {
+          "Capa":"Railgun_c41_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 42": {
+          "Capa":"Railgun_c42_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 43": {
+          "Capa":"Railgun_c43_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 44": {
+          "Capa":"Railgun_c44_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v7_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 8": {
+        "Capa": "Railgun_v8_cover.jpg",
+        "Capítulo 45": {
+          "Capa":"Railgun_c45_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 46": {
+          "Capa":"Railgun_c46_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 47": {
+          "Capa":"Railgun_c47_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 48": {
+          "Capa":"Railgun_c48_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 49": {
+          "Capa":"Railgun_c49_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 50": {
+          "Capa":"Railgun_c50_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 51": {
+          "Capa":"Railgun_c51_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 52": {
+          "Capa":"Railgun_c52_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v8_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 9": {
+        "Capa": "Railgun_v9_cover.jpg",
+        "Capítulo 53": {
+          "Capa":"Railgun_c53_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 54": {
+          "Capa":"Railgun_c54_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 55": {
+          "Capa":"Railgun_c55_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 56": {
+          "Capa":"Railgun_c56_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 57": {
+          "Capa":"Railgun_c57_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 58": {
+          "Capa":"Railgun_c58_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 59": {
+          "Capa":"Railgun_c59_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 60": {
+          "Capa":"Railgun_c60_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 61": {
+          "Capa":"Railgun_c61_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v9_c9_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 10": {
+        "Capa": "Railgun_v10_cover.jpg",
+        "Capítulo 62": {
+          "Capa":"Railgun_c62_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 63": {
+          "Capa":"Railgun_c63_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 64": {
+          "Capa":"Railgun_c64_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 65": {
+          "Capa":"Railgun_c65_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 66": {
+          "Capa":"Railgun_c66_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 67": {
+          "Capa":"Railgun_c67_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 68": {
+          "Capa":"Railgun_c68_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 69": {
+          "Capa":"Railgun_c69_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 70": {
+          "Capa":"Railgun_c70_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 71": {
+          "Capa":"Railgun_c71_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v10_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "Dream Ranker Arc": {
+      "Volume 11": {
+        "Capa": "Railgun_v11_cover.jpg",
+        "Capítulo 72": {
+          "Capa":"Railgun_c72_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 73": {
+          "Capa":"Railgun_c73_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 74": {
+          "Capa":"Railgun_c74_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 75": {
+          "Capa":"Railgun_c75_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 76": {
+          "Capa":"Railgun_c76_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 77": {
+          "Capa":"Railgun_c77_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c6.pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 78": {
+          "Capa":"Railgun_c78_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 79": {
+          "Capa":"Railgun_c79_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v11_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 12": {
+        "Capa": "Railgun_v12_cover.jpg",
+        "Capítulo 80": {
+          "Capa":"Railgun_c80_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 81": {
+          "Capa":"Railgun_c81_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 82": {
+          "Capa":"Railgun_c82_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 83": {
+          "Capa":"Railgun_c83_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 84": {
+          "Capa":"Railgun_c84_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 85": {
+          "Capa":"Railgun_c85_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c6.pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 86": {
+          "Capa":"Railgun_c86_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 87": {
+          "Capa":"Railgun_c87_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 88": {
+          "Capa":"Railgun_c88_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v12_c9_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 13": {
+        "Capa": "Railgun_v13_cover.jpg",
+        "Capítulo 89": {
+          "Capa":"Railgun_c89_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 90": {
+          "Capa":"Railgun_c90_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 91": {
+          "Capa":"Railgun_c91_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 92": {
+          "Capa":"Railgun_c92_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 93": {
+          "Capa":"Railgun_c93_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 94": {
+          "Capa":"Railgun_c94_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c6.pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 95": {
+          "Capa":"Railgun_c95_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 96": {
+          "Capa":"Railgun_c96_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v13_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "Jailbreaker Arc": {
+      "Volume 14": {
+        "Capa": "Railgun_v14_cover.jpg",
+        "Capítulo 97": {
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 98": {
+          "Capa":"Railgun_c98_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c2_pg",
+            "Número": 9,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 99": {
+          "Capa":"Railgun_c99_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c3_pg",
+            "Número": 20,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 100": {
+          "Capa":"Railgun_c100_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c4_pg",
+            "Número": 23,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 101": {
+          "Capa":"Railgun_c101_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c5_pg",
+            "Número": 22,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 102": {
+          "Capa":"Railgun_c102_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c6.pg",
+            "Número": 23,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 103": {
+          "Capa":"Railgun_c103_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c7_pg",
+            "Número": 20,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 104": {
+          "Capa":"Railgun_c104_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c8_pg",
+            "Número": 25,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 105": {
+          "Capa":"Railgun_c105_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c9_pg",
+            "Número": 24,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 106": {
+          "Capa":"Railgun_c106_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v14_c10_pg",
+            "Número": 29,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 15": {
+        "Capa": "Railgun_v15_cover.jpg",
+        "Capítulo 107": {
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c1_pg",
+            "Número": 18,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 108": {
+          "Capa":"Railgun_c108_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c2_pg",
+            "Número": 23,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 109": {
+          "Capa":"Railgun_c109_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c3_pg",
+            "Número": 18,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 110": {
+          "Capa":"Railgun_c110_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c4_pg",
+            "Número": 18,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 111": {
+          "Capa":"Railgun_c111_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c5.pg",
+            "Número": 24,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 112": {
+          "Capa":"Railgun_c112_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c6_pg",
+            "Número": 16,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 113": {
+          "Capa":"Railgun_c113_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c7_pg",
+            "Número": 24,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 114": {
+          "Capa":"Railgun_c114_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c8_pg",
+            "Número": 25,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 115": {
+          "Capa":"Railgun_c115_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v15_c9_pg",
+            "Número": 18,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 16": {
+        "Capa": "Railgun_v16_cover.jpg",
+        "Capítulo 116": {
+          "Capa":"Railgun_c116_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c1_pg",
+            "Número": 20,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 117": {
+          "Capa":"Railgun_c117_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c2_pg",
+            "Número": 21,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 118": {
+          "Capa":"Railgun_c118_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c3_pg",
+            "Número": 17,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 119": {
+          "Capa":"Railgun_c119_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c4_pg",
+            "Número": 20,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 120": {
+          "Capa":"Railgun_c120_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c5.pg",
+            "Número": 20,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 121": {
+          "Capa":"Railgun_c121_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c6_pg",
+            "Número": 31,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 122": {
+          "Capa":"Railgun_c122_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c7_pg",
+            "Número": 17,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 123": {
+          "Capa":"Railgun_c123_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c8_pg",
+            "Número": 16,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 124": {
+          "Capa":"Railgun_c124_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c9_pg",
+            "Número": 22,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 125": {
+          "Capa":"Railgun_c125_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c10_pg",
+            "Número": 18,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 126": {
+          "Capa":"Railgun_c126_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c11_pg",
+            "Número": 16,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 127": {
+          "Capa":"Railgun_c127_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v16_c12_pg",
+            "Número": 19,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 17": {
+        "Capa": [
+          "Railgun_v17_cover.jpg"
+        ],
+        "Capítulo 128": {
+          "Capa":"Railgun_c128_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c1_pg",
+            "Número": 23,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 129": {
+          "Capa":"Railgun_c129_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c2_pg",
+            "Número": 22,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 130": {
+          "Capa":"Railgun_c130_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c3_pg",
+            "Número": 15,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "First Year Arc": {
+      "Volume 17": {
+        "Capa": "Railgun_v17_cover.jpg",
+        "Capítulo 131": {
+          "Capa":"Railgun_c131_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 132": {
+          "Capa":"Railgun_c132_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 133": {
+          "Capa":"Railgun_c133_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 134": {
+          "Capa":"Railgun_c134_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 135": {
+          "Capa":"Railgun_c135_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c8.pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 136": {
+          "Capa":"Railgun_c136_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v17_c9_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 18": {
+        "Capa": "Railgun_v18_cover.jpg",
+        "Capítulo 137": {
+          "Capa":"Railgun_c137_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 138": {
+          "Capa":"Railgun_c138_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 139": {
+          "Capa":"Railgun_c139_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 140": {
+          "Capa":"Railgun_c140_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 141": {
+          "Capa":"Railgun_c141_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 142": {
+          "Capa":"Railgun_c142_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 143": {
+          "Capa":"Railgun_c143_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v18_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 19": {
+        "Capa": "Railgun_v19_cover.jpg",
+        "Capítulo 144": {
+          "Capa":"Railgun_c144_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 145": {
+          "Capa":"Railgun_c145_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 146": {
+          "Capa":"Railgun_c146_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 147": {
+          "Capa":"Railgun_c147_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 148": {
+          "Capa":"Railgun_c148_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 149": {
+          "Capa":"Railgun_c149_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 150": {
+          "Capa":"Railgun_c150_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 151": {
+          "Capa":"Railgun_c151_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 152": {
+          "Capa":"Railgun_c152_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v19_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 20": {
+        "Capa": "Railgun_v20_cover.jpg",
+        "Capítulo 153": {
+          "Capa":"Railgun_c153_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 154": {
+          "Capa":"Railgun_c154_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 155": {
+          "Capa":"Railgun_c155_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 156": {
+          "Capa":"Railgun_c156_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 157": {
+          "Capa":"Railgun_c157_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 158": {
+          "Capa":"Railgun_c158_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 159": {
+          "Capa":"Railgun_c159_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 160": {
+          "Capa":"Railgun_c160_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Railgun_v20_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    }
+  },
+  "Toaru Kagaku no Accelerator": {
+    "Necromancer Arc": {
+      "Volume 1": {
+        "Capa": "Accelerator_v1_cover.jpg",
+        "Capítulo 1": {
+          "Capa":"Accelerator_c1_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v1_c1_pg",
+            "Número": 2,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 2": {
+          "Capa":"Accelerator_c2_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v1_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 3": {
+          "Capa":"Accelerator_c3_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v1_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 2": {
+        "Capa": "Accelerator_v2_cover.jpg",
+        "Capítulo 4": {
+          "Capa":"Accelerator_c4_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v2_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 5": {
+          "Capa":"Accelerator_c5_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v2_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 6": {
+          "Capa":"Accelerator_c6_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v2_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 7": {
+          "Capa":"Accelerator_c7_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v2_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 8": {
+          "Capa":"Accelerator_c8_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v2_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 3": {
+        "Capa": "Accelerator_v3_cover.jpg",
+        "Capítulo 9": {
+          "Capa":"Accelerator_c9_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v3_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 10": {
+          "Capa":"Accelerator_c10_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v3_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 11": {
+          "Capa":"Accelerator_c11_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v3_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 12": {
+          "Capa":"Accelerator_c12_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v3_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 13": {
+          "Capa":"Accelerator_c13_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v3_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 4": {
+        "Capa": "Accelerator_v4_cover.jpg",
+        "Capítulo 14": {
+          "Capa":"Accelerator_c14_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v4_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 15": {
+          "Capa":"Accelerator_c15_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v4_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 16": {
+          "Capa":"Accelerator_c16_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v4_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 17": {
+          "Capa":"Accelerator_c17_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v4_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 18": {
+          "Capa":"Accelerator_c18_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v4_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 5": {
+        "Capa": "Accelerator_v5_cover.jpg",
+        "Capítulo 19": {
+          "Capa":"Accelerator_c19_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v5_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 20": {
+          "Capa":"Accelerator_c20_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v5_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 21": {
+          "Capa":"Accelerator_c21_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v5_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 22": {
+          "Capa":"Accelerator_c22_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v5_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 23": {
+          "Capa":"Accelerator_c23_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v5_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 24": {
+          "Capa":"Accelerator_c24_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v5_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 6": {
+        "Capa": "Accelerator_v6_cover.jpg",
+        "Capítulo 25": {
+          "Capa":"Accelerator_c25_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 26": {
+          "Capa":"Accelerator_c26_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 27": {
+          "Capa":"Accelerator_c27_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 28": {
+          "Capa":"Accelerator_c28_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 29": {
+          "Capa":"Accelerator_c29_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 30": {
+          "Capa":"Accelerator_c30_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 7": {
+        "Capa": "Accelerator_v7_cover.jpg",
+        "Capítulo 31": {
+          "Capa":"Accelerator_c31_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 32": {
+          "Capa":"Accelerator_c32_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 33": {
+          "Capa":"Accelerator_33_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 34": {
+          "Capa":"Accelerator_c34_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 35": {
+          "Capa":"Accelerator_c35_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 36": {
+          "Capa":"Accelerator_c36_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v6_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "Nectar Arc": {
+      "Volume 7": {
+        "Capa": "Accelerator_v7_cover.jpg",
+        "Capítulo 37": {
+          "Capa":"Accelerator_c37_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v7_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 8": {
+        "Capa": "Accelerator_v8_cover.jpg",
+        "Capítulo 38": {
+          "Capa":"Accelerator_c38_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 39": {
+          "Capa":"Accelerator_c39_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 40": {
+          "Capa":"Accelerator_c40_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 41": {
+          "Capa":"Accelerator_c41_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 42": {
+          "Capa":"Accelerator_c42_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 43": {
+          "Capa":"Accelerator_c43_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 9": {
+        "Capa": "Accelerator_v9_cover.jpg",
+        "Capítulo 44": {
+          "Capa":"Accelerator_c44_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 45": {
+          "Capa":"Accelerator_c45_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 46": {
+          "Capa":"Accelerator_c46_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 47": {
+          "Capa":"Accelerator_c47_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 48": {
+          "Capa":"Accelerator_c48_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v8_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 10": {
+        "Capa": "Accelerator_v10_cover.jpg",
+        "Capítulo 49": {
+          "Capa":"Accelerator_c49_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v10_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 50": {
+          "Capa":"Accelerator_c50_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v10_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 51": {
+          "Capa":"Accelerator_c51_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v10_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 52": {
+          "Capa":"Accelerator_c52_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v10_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 11": {
+        "Capa": "Accelerator_v11_cover.jpg",
+        "Capítulo 53": {
+          "Capa":"Accelerator_c53_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v11_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 54": {
+          "Capa":"Accelerator_c54_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v11_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 55": {
+          "Capa":"Accelerator_c55_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v11_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 56": {
+          "Capa":"Accelerator_c56_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v11_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 57": {
+          "Capa":"Accelerator_c57_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v11_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 58": {
+          "Capa":"Accelerator_c58_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v11_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 12": {
+        "Capa": "Accelerator_v12_cover.jpg",
+        "Capítulo 59": {
+          "Capa":"Accelerator_c59_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v12_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 60": {
+          "Capa":"Accelerator_c60_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v12_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 61": {
+          "Capa":"Accelerator_c61_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v12_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 62": {
+          "Capa":"Accelerator_c62_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v12_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    },
+    "Tree Diagram Remnant Arc": {
+      "Volume 12": {
+        "Capa": "Accelerator_v12_cover.jpg",
+        "Capítulo 63": {
+          "Capa":"Accelerator_c63_cover.jpg",
+          "Páginas": {
+            "Prefixo": "Accelerator_v12_c5_pg",
+            "Número": 37,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    }
+  },
+  "Toaru Kagaku no Dark Matter": {
+    "Yuzuriha Ringo Arc": {
+      "Volume 1": {
+        "Capa": "Dark Matter_v1_cover.jpg",
+        "Capítulo 1": {
+          "Capa": "DarkMatter_c1_cover.jpg",
+          "Páginas": {
+            "Prefixo": "DarkMatter_v1_c1_pg",
+            "Número": 45,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 2": {
+          "Capa": "DarkMatter_c2_cover.jpg",
+          "Páginas": {
+            "Prefixo": "DarkMatter_v1_c2_pg",
+            "Número": 27,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 3": {
+          "Capa": "DarkMatter_c3_cover.jpg",
+          "Páginas": {
+            "Prefixo": "DarkMatter_v1_c3_pg",
+            "Número": 37,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 4": {
+          "Capa": "DarkMatter_c4_cover.jpg",
+          "Páginas": {
+            "Prefixo": "DarkMatter_v1_c4_pg",
+            "Número": 46,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    }
+  },
+  "Toaru Kagaku no Astral Buddy": {
+    "Astral Buddy Arc": {
+      "Volume 1": {
+        "Capa": "AstralBuddy_v1_cover.jpg",
+        "Capítulo 1": {
+          "Capa":"AstralBuddy_c1_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v1_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 2": {
+          "Capa": "AstralBuddy_v2_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v1_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 3": {
+          "Capa": "AstralBuddy_v3_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v1_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 4": {
+          "Capa": "AstralBuddy_v4_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v1_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 5": {
+          "Capa": "AstralBuddy_v5_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v1_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 2": {
+        "Capa": "AstralBuddy_v2_cover.jpg",
+        "Capítulo 6": {
+          "Capa": "AstralBuddy_c6_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c1_pg",
+            "Número": 2,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 7": {
+          "Capa": "AstralBuddy_c7_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 8": {
+          "Capa": "AstralBuddy_c8_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 9": {
+          "Capa": "AstralBuddy_c9_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 10": {
+          "Capa": "AstralBuddy_c10_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 11": {
+          "Capa": "AstralBuddy_c11_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 12": {
+          "Capa": "AstralBuddy_c12_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v2_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 3": {
+        "Capa": "AstralBuddy_v3_cover.jpg",
+        "Capítulo 13": {
+          "Capa": "AstralBuddy_c13_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 14": {
+          "Capa": "AstralBuddy_c14_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 15": {
+          "Capa": "AstralBuddy_c15_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 16": {
+          "Capa": "AstralBuddy_c16_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 17": {
+          "Capa": "AstralBuddy_c17_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 18": {
+          "Capa": "AstralBuddy_c18_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 19": {
+          "Capa": "AstralBuddy_c19_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v3_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 4": {
+        "Capa": "AstralBuddy_v4_cover.jpg",
+        "Capítulo 20": {
+          "Capa": "AstralBuddy_c20_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 21": {
+          "Capa": "AstralBuddy_c21_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 22": {
+          "Capa": "AstralBuddy_c22_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 23": {
+          "Capa": "AstralBuddy_c23_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 24": {
+          "Capa": "AstralBuddy_c24_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 25": {
+          "Capa": "AstralBuddy_c25_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 26": {
+          "Capa": "AstralBuddy_c26_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 27": {
+          "Capa": "AstralBuddy_c27_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 28": {
+          "Capa": "AstralBuddy_c28_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c9_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 29": {
+          "Capa": "AstralBuddy_c29_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c10_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 30": {
+          "Capa": "AstralBuddy_c30_cover.jpg",
+          "Páginas": {
+            "Prefixo": "AstralBuddy_v4_c11_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    }
+  },
+  "Toaru Kagaku no Mental Out": {
+    "Tokiwadai Election Arc": {
+      "Volume 1": {
+        "Capa": "MentalOut_v1_cover.jpg",
+        "Capítulo 1": {
+          "Capa": "MentalOut_c1_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v1_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 2": {
+          "Capa": "MentalOut_c2_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v1_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 3": {
+          "Capa": "MentalOut_c3_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v1_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 4": {
+          "Capa": "MentalOut_c4_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v1_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 5": {
+          "Capa": "MentalOut_c5_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v1_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 6": {
+          "Capa": "MentalOut_c6_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v1_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 2": {
+        "Capa": "MentalOut_v2_cover.jpg",
+        "Capítulo 7": {
+          "Capa": "MentalOut_c7_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 8": {
+          "Capa": "MentalOut_c8_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 9": {
+          "Capa": "MentalOut_c9_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 10": {
+          "Capa": "MentalOut_c10_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 11": {
+          "Capa": "MentalOut_c11_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 12": {
+          "Capa": "MentalOut_c12_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 13": {
+          "Capa": "MentalOut_c13_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v2_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 3": {
+        "Capa": "MentalOut_v3_cover.jpg",
+        "Capítulo 14": {
+          "Capa": "MentalOut_c14_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 15": {
+          "Capa": "MentalOut_c15_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 16": {
+          "Capa": "MentalOut_c16_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 17": {
+          "Capa": "MentalOut_c17_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 18": {
+          "Capa": "MentalOut_c18_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 19": {
+          "Capa": "MentalOut_c19_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 20": {
+          "Capa": "MentalOut_c20_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 21": {
+          "Capa": "MentalOut_c21_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v3_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      },
+      "Volume 4": {
+        "Capa": "MentalOut_v4_cover.jpg",
+        "Capítulo 22": {
+          "Capa": "MentalOut_c22_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c1_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 23": {
+          "Capa": "MentalOut_c23_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c2_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 24": {
+          "Capa": "MentalOut_c24_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c3_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 25": {
+          "Capa": "MentalOut_c25_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c4_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 26": {
+          "Capa": "MentalOut_c26_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c5_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 27": {
+          "Capa": "MentalOut_c27_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c6_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 28": {
+          "Capa": "MentalOut_c28_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c7_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        },
+        "Capítulo 29": {
+          "Capa": "MentalOut_c29_cover.jpg",
+          "Páginas": {
+            "Prefixo": "MentalOut_v4_c8_pg",
+            "Número": 1,
+            "Extensão": "jpg"
+          }
+        }
+      }
+    }
+  }
+}

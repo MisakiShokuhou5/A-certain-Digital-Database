@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toaru Local Database Navigator v3.2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/json.css">
+    
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <i class="fas fa-sitemap"></i>
+                <h2 id="project-name">Carregando Projeto...</h2>
+            </header>
+            <div class="search-box">
+                <input type="text" id="file-search" placeholder="Buscar arquivo...">
+            </div>
+            <nav id="file-tree" class="file-tree"></nav>
+        </aside>
+
+        <main class="content-viewer">
+            <div id="welcome-screen">
+                <div class="logo-animation"><i class="fas fa-atom"></i></div>
+                <h1>Selecione um arquivo para começar</h1>
+                <p>Navegue pela árvore de arquivos à esquerda para carregar os dados.</p>
+            </div>
+            <div id="viewer-content" class="hidden">
+                <header class="viewer-header">
+                    <h3 id="file-path-display"></h3>
+                    <div class="header-controls">
+                        <div id="view-toggle-container" class="view-toggle">
+                            <button id="view-formatted-btn" class="active">Formatado</button>
+                            <button id="view-raw-btn">Raw JSON</button>
+                        </div>
+                        <div id="action-buttons-container" class="action-buttons">
+                             <button id="copy-path-btn" title="Copiar Caminho do Arquivo"><i class="fas fa-link"></i></button>
+                             <button id="copy-content-btn" title="Copiar Conteúdo JSON"><i class="fas fa-copy"></i></button>
+                             <button id="generate-fetch-btn" title="Gerar Snippet Fetch"><i class="fas fa-code"></i></button>
+                        </div>
+                    </div>
+                </header>
+                <div id="file-content-display"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./src/js/json.js"></script>
+</body>
+</html>
