@@ -3,124 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Database v2.1</title>
+    <title>Database v3.0</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <style>
-        /* CSS ATUALIZADO PARA HIERARQUIA E NOVAS FUNCIONALIDADES */
-        :root {
-            --bg-main: #000000;
-            --bg-sidebar: #1a1a2e;
-            --bg-viewer: #161625;
-            --text-color: #e0e0e0;
-            --accent-color: #8a2be2; /* Blueviolet */
-            --comment-color: #6c6c9c;
-            --border-color: #4a2d8a;
-            --glow-color: rgba(138, 43, 226, 0.5);
-            --success-color: #2ecc71;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Consolas', 'Monaco', monospace; background-color: var(--bg-main); color: var(--text-color); overflow: hidden; }
-        .hidden { display: none !important; }
-
-        .app-container { display: grid; grid-template-columns: 320px 1fr; height: 100vh; }
-        .sidebar { background-color: var(--bg-sidebar); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; overflow: auto;}
-        .sidebar-header { padding: 20px; border-bottom: 1px solid var(--border-color); display: flex; align-items: center; gap: 10px; text-shadow: 0 0 8px var(--glow-color); }
-        .sidebar-header i { color: var(--accent-color); font-size: 1.5rem; }
-        .search-box { padding: 10px; }
-        #file-search { width: 100%; padding: 8px; background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-color); border-radius: 4px; }
-        #file-search:focus { outline: none; box-shadow: 0 0 10px var(--glow-color); }
-
-        /* Árvore de Arquivos Hierárquica */
-        .file-tree { flex-grow: 1; overflow-y: auto; padding: 10px; }
-        .tree-node { list-style: none; }
-        .folder-header { cursor: pointer; padding: 8px; font-weight: bold; display: flex; align-items: center; gap: 8px; border-radius: 4px; }
-        .folder-header:hover { background-color: var(--bg-viewer); }
-        .folder-header .icon { color: var(--accent-color); width: 20px; text-align: center; }
-        .folder-header .toggle-icon { transition: transform 0.2s; }
-        .folder-header.collapsed .toggle-icon { transform: rotate(-90deg); }
-        .folder-content { padding-left: 20px; }
-        .folder-content.collapsed { display: none; }
-        .file-item { padding: 8px 8px 8px 25px; cursor: pointer; position: relative; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-radius: 4px; }
-        .file-item:hover { background-color: var(--bg-viewer); }
-        .file-item.active { background-color: var(--accent-color); color: white; font-weight: bold; }
-        .file-item .icon { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); color: var(--comment-color); }
-        .file-item.active .icon { color: white; }
-
-        /* Visualizador de Conteúdo */
-        .content-viewer { background-color: var(--bg-viewer); padding: 20px; overflow-y: auto; display: flex; flex-direction: column; }
-        #welcome-screen { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: var(--comment-color); text-align: center; }
-        #welcome-screen .logo-animation i { font-size: 5rem; color: var(--accent-color); animation: spin 10s linear infinite; }
-        @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-        
-        #viewer-content { flex-grow: 1; display: flex; flex-direction: column; }
-
-        .viewer-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid var(--border-color);
-            flex-shrink: 0;
-        }
-        .viewer-header h3 { color: var(--accent-color); text-shadow: 0 0 5px var(--glow-color); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-        /* ✨ NOVO: Container para todos os controles do cabeçalho */
-        .header-controls {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .view-toggle button, .action-buttons button {
-            background: none;
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 5px 12px;
-            cursor: pointer;
-            margin-left: 5px;
-            border-radius: 4px;
-            transition: all 0.2s ease;
-            position: relative;
-        }
-        .view-toggle button:hover, .action-buttons button:hover {
-            border-color: var(--accent-color);
-            color: var(--accent-color);
-            box-shadow: 0 0 8px var(--glow-color);
-        }
-        .view-toggle button.active {
-            background-color: var(--accent-color);
-            color: white;
-            font-weight: bold;
-            border-color: var(--accent-color);
-        }
-        
-        /* ✨ NOVO: Estilos para botões de ação com ícones */
-        .action-buttons button {
-            padding: 8px 10px; /* Mais quadrado para ícones */
-        }
-        .action-buttons button .fas {
-            font-size: 1rem;
-            transition: opacity 0.2s;
-        }
-        .action-buttons button .feedback-icon {
-            color: var(--success-color);
-        }
-
-        #file-content-display { flex-grow: 1; }
-        #file-content-display img { max-width: 100%; border: 2px solid var(--border-color); border-radius: 8px; }
-        #file-content-display pre { white-space: pre-wrap; word-wrap: break-word; background-color: var(--bg-main); padding: 15px; border-radius: 5px; border: 1px solid var(--border-color); }
-        .formatted-view .anime-title { font-size: 2.5rem; color: var(--accent-color); text-shadow: 0 0 10px var(--glow-color); margin-bottom: 15px; }
-        .formatted-view p { line-height: 1.6; margin-bottom: 20px; max-width: 90ch; }
-        .formatted-view h4 { font-size: 1.5rem; margin-top: 30px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 5px; }
-        .episode-list-formatted { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px;}
-        .episode-item-formatted { background: var(--bg-sidebar); padding: 15px; border-radius: 4px; border-left: 4px solid var(--accent-color); transition: background-color 0.2s; }
-        .episode-item-formatted:hover { background-color: #2f314d; }
-        .episode-item-formatted .ep-title { font-weight: bold; color: var(--text-color); display: block; margin-bottom: 5px; }
-        .episode-item-formatted .ep-desc { font-size: 0.9em; color: var(--comment-color); }
-    </style>
+    <link rel="stylesheet" href="./src/css/json.css">
 </head>
 <body>
     <div class="app-container">
@@ -145,14 +31,14 @@
                 <header class="viewer-header">
                     <h3 id="file-path-display"></h3>
                     <div class="header-controls">
-                        <div id="view-toggle-container" class="view-toggle">
+                        <div id="view-toggle-container" class="view-toggle hidden">
                             <button id="view-formatted-btn" class="active">Formatado</button>
                             <button id="view-raw-btn">Raw JSON</button>
                         </div>
                         <div id="action-buttons-container" class="action-buttons">
-                             <button id="copy-path-btn" title="Copiar Caminho do Arquivo"><i class="fas fa-link"></i></button>
-                             <button id="copy-content-btn" title="Copiar Conteúdo JSON"><i class="fas fa-copy"></i></button>
-                             <button id="generate-fetch-btn" title="Gerar Snippet Fetch"><i class="fas fa-code"></i></button>
+                             <button id="copy-path-btn" title="Copiar URL Absoluta"><i class="fas fa-link"></i></button>
+                             <button id="copy-content-btn" title="Copiar Conteúdo JSON" class="hidden"><i class="fas fa-copy"></i></button>
+                             <button id="generate-fetch-btn" title="Gerar Snippet Fetch" class="hidden"><i class="fas fa-code"></i></button>
                         </div>
                     </div>
                 </header>
@@ -162,7 +48,7 @@
     </div>
 
     <script>
-    // JAVASCRIPT ATUALIZADO COM NOVAS FUNÇÕES DE CÓPIA
+    // JAVASCRIPT ATUALIZADO COM MELHORIAS DE UI E URL ABSOLUTA
     document.addEventListener('DOMContentLoaded', () => {
         const fileTreeEl = document.getElementById('file-tree');
         const projectNameEl = document.getElementById('project-name');
@@ -173,7 +59,7 @@
         const viewToggleContainer = document.getElementById('view-toggle-container');
         const viewFormattedBtn = document.getElementById('view-formatted-btn');
         const viewRawBtn = document.getElementById('view-raw-btn');
-        const actionButtonsContainer = document.getElementById('action-buttons-container');
+        
         const copyPathBtn = document.getElementById('copy-path-btn');
         const copyContentBtn = document.getElementById('copy-content-btn');
         const generateFetchBtn = document.getElementById('generate-fetch-btn');
@@ -189,21 +75,22 @@
                 const manifest = await manifestResponse.json();
                 projectNameEl.textContent = manifest.project_name || "Database Local";
 
-                const filesToLoad = [];
-                function collectFiles(nodes) {
+                // Carrega apenas os arquivos JSON para o banco de dados em memória
+                const jsonFilesToLoad = [];
+                function collectJsonFiles(nodes) {
                     for (const node of nodes) {
                         if (node.type === 'file' && node.path.endsWith('.json')) {
-                            filesToLoad.push(node.path);
+                            jsonFilesToLoad.push(node.path);
                         } else if (node.type === 'folder' && node.children) {
-                            collectFiles(node.children);
+                            collectJsonFiles(node.children);
                         }
                     }
                 }
-                collectFiles(manifest.tree);
+                collectJsonFiles(manifest.tree);
                 
-                const promises = filesToLoad.map(path => fetch(path).then(res => res.json()));
+                const promises = jsonFilesToLoad.map(path => fetch(path).then(res => res.json()));
                 const results = await Promise.all(promises);
-                filesToLoad.forEach((path, index) => { fileDatabase[path] = results[index]; });
+                jsonFilesToLoad.forEach((path, index) => { fileDatabase[path] = results[index]; });
 
                 buildFileTree(manifest.tree, fileTreeEl);
 
@@ -213,6 +100,18 @@
             }
         }
         
+        // ✨ NOVO: Função para obter ícone com base na extensão do arquivo
+        function getFileIcon(path) {
+            const extension = path.split('.').pop().toLowerCase();
+            if (['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(extension)) {
+                return 'fas fa-file-image';
+            }
+            if (extension === 'json') {
+                return 'fas fa-file-code';
+            }
+            return 'fas fa-file-alt'; // Ícone padrão
+        }
+
         function buildFileTree(nodes, parentElement) {
             const ul = document.createElement('ul');
             ul.className = 'tree-node';
@@ -241,7 +140,9 @@
                         buildFileTree(node.children, folderContent);
                     }
                 } else if (node.type === 'file') {
-                    li.innerHTML = `<div class="file-item" data-path="${node.path}"><i class="fas fa-file-alt icon"></i>${node.path.split('/').pop()}</div>`;
+                    // ✨ NOVO: Usa a função getFileIcon para definir o ícone
+                    const iconClass = getFileIcon(node.path);
+                    li.innerHTML = `<div class="file-item" data-path="${node.path}"><i class="${iconClass} icon"></i>${node.path.split('/').pop()}</div>`;
                     li.querySelector('.file-item').addEventListener('click', (e) => handleFileSelect(e.currentTarget, node.path));
                 }
                 ul.appendChild(li);
@@ -265,32 +166,43 @@
         function displayFileContent() {
             if (!currentFile) return;
             
-            viewFormattedBtn.classList.toggle('active', currentView === 'formatted');
-            viewRawBtn.classList.toggle('active', currentView === 'raw');
-            
             const fileExtension = currentFile.split('.').pop().toLowerCase();
             const isJson = fileExtension === 'json';
-
+            const isImage = ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(fileExtension);
+            
+            // ✨ NOVO: Lógica de UI Adaptativa
+            // Mostra/esconde botões com base no tipo de arquivo
             viewToggleContainer.classList.toggle('hidden', !isJson);
-            actionButtonsContainer.classList.toggle('hidden', !isJson);
+            copyContentBtn.classList.toggle('hidden', !isJson);
+            generateFetchBtn.classList.toggle('hidden', !isJson);
 
             if (isJson) {
+                viewFormattedBtn.classList.toggle('active', currentView === 'formatted');
+                viewRawBtn.classList.toggle('active', currentView === 'raw');
                 const data = fileDatabase[currentFile];
                 currentView === 'raw' ? renderRawJson(data) : renderFormattedJson(data);
-            } else if (['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(fileExtension)) {
+            } else if (isImage) {
                 renderImage(currentFile);
             } else {
-                fileContentDisplay.innerHTML = `<p>Visualização não suportada.</p>`;
+                fileContentDisplay.innerHTML = `<p>Visualização não suportada para este tipo de arquivo.</p>`;
             }
         }
         
         function renderRawJson(data) {
             fileContentDisplay.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
         }
+
+        // ✨ NOVO: Função de renderização de imagem aprimorada
         function renderImage(filePath) {
-            fileContentDisplay.innerHTML = `<img src="${filePath}" alt="${filePath}">`;
+            fileContentDisplay.innerHTML = `
+                <div class="image-viewer-container">
+                    <img src="${filePath}" alt="${filePath}">
+                </div>
+            `;
         }
+
         function renderFormattedJson(data) {
+            // Esta função permanece a mesma, pois já funciona bem para JSON
             const episodesHtml = (data.episodios || []).map(ep => `
                 <div class="episode-item-formatted">
                     <span class="ep-title">Ep. ${ep.episodio || 'N/A'}: ${ep.titulo || 'Sem título'}</span>
@@ -330,9 +242,12 @@
         viewFormattedBtn.addEventListener('click', () => { currentView = 'formatted'; displayFileContent(); });
         viewRawBtn.addEventListener('click', () => { currentView = 'raw'; displayFileContent(); });
 
+        // ✅ MELHORIA PRINCIPAL: Copia a URL absoluta
         copyPathBtn.addEventListener('click', () => {
             if (!currentFile) return;
-            navigator.clipboard.writeText(currentFile).then(() => {
+            // Constrói a URL absoluta usando a localização atual da página como base
+            const absoluteUrl = new URL(currentFile, window.location.href).href;
+            navigator.clipboard.writeText(absoluteUrl).then(() => {
                 provideFeedback(copyPathBtn, 'fas fa-link');
             });
         });
@@ -347,10 +262,7 @@
 
         generateFetchBtn.addEventListener('click', () => {
             if (!currentFile) return;
-            
-            // ✨ ALTERAÇÃO AQUI: Constrói a URL absoluta antes de criar o snippet.
             const absoluteUrl = new URL(currentFile, window.location.href).href;
-
             const fetchSnippet = `fetch('${absoluteUrl}')\n  .then(response => response.json())\n  .then(data => {\n    console.log(data);\n  });`;
             navigator.clipboard.writeText(fetchSnippet).then(() => {
                 provideFeedback(generateFetchBtn, 'fas fa-code');
@@ -359,6 +271,6 @@
 
         initialize();
     });
-</script>
+    </script>
 </body>
 </html>
