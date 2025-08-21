@@ -8,15 +8,7 @@
       "children": [
         {
           "type": "file",
-          "path": "src/json/toaru-majutsu-no-index.json"
-        },
-        {
-          "type": "file",
-          "path": "src/json/toaru-majutsu-no-index-II.json"
-        },
-        {
-          "type": "file",
-          "path": "src/json/toaru-majutsu-no-index-III.json"
+          "path": "src/json/Anime.json"
         },
         {
           "type": "file",
@@ -28,7 +20,15 @@
         },
         {
           "type": "file",
-          "path": "src/json/Anime.json"
+          "path": "src/json/toaru-majutsu-no-index-II.json"
+        },
+        {
+          "type": "file",
+          "path": "src/json/toaru-majutsu-no-index-III.json"
+        },
+        {
+          "type": "file",
+          "path": "src/json/toaru-majutsu-no-index.json"
         }
       ]
     },
@@ -50,6 +50,21 @@
       "children": [
         {
           "type": "folder",
+          "name": "Pagina Manga",
+          "icon": "fas fa-folder",
+          "children": [
+            {
+              "type": "file",
+              "path": "src/img/Manga/Accelerator_v3_c4_p23_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/anime-bg/principal.png"
+            }
+          ]
+        },
+        {
+          "type": "folder",
           "name": "anime-bg",
           "icon": "fas fa-photo-film",
           "children": [
@@ -60,33 +75,6 @@
             {
               "type": "file",
               "path": "src/img/anime-bg/principal.png"
-            }
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "personagem",
-          "icon": "fas fa-user",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-com-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-sem-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/fundo-lest-order.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/DarkMatter_v1_c1_pg15_en.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator_v12_c5_pg10_pt.jpg"
             }
           ]
         },
@@ -108,11 +96,27 @@
           "children": [
             {
               "type": "file",
+              "path": "src/img/Characters/Lucia.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/Accelerator-com-IA-2025.jpg"
+            },
+            {
+              "type": "file",
               "path": "src/img/personagem/Accelerator-com-IA.jpg"
             },
             {
               "type": "file",
               "path": "src/img/personagem/Accelerator-sem-IA.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/Accelerator_v12_c5_pg10_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/DarkMatter_v1_c1_pg15_en.jpg"
             },
             {
               "type": "file",
@@ -122,16 +126,20 @@
         },
         {
           "type": "folder",
-          "name": "Pagina Manga",
-          "icon": "fas fa-folder",
+          "name": "personagem",
+          "icon": "fas fa-user",
           "children": [
             {
               "type": "file",
-              "path": "src/img/Manga/Accelerator_v3_c4_p23_pt.jpg"
+              "path": "src/img/personagem/Accelerator-com-IA.jpg"
             },
             {
               "type": "file",
-              "path": "src/img/anime-bg/principal.png"
+              "path": "src/img/personagem/Accelerator-sem-IA.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/fundo-lest-order.jpg"
             }
           ]
         }
@@ -144,23 +152,23 @@
       "children": [
         {
           "type": "folder",
-          "name": "Mangá",
-          "icon": "fas fa-folder",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/json/Mangá.json"
-            }
-          ]
-        },
-        {
-          "type": "folder",
           "name": "Anime",
           "icon": "fas fa-folder",
           "children": [
             {
               "type": "file",
               "path": "src/json/Anime.json"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Arcos",
+          "icon": "fas fa-folder",
+          "children": [
+            {
+              "type": "file",
+              "path": "src/json/Arcs.json"
             }
           ]
         },
@@ -177,6 +185,21 @@
         },
         {
           "type": "folder",
+          "name": "Mangá",
+          "icon": "fas fa-folder",
+          "children": [
+            {
+              "type": "file",
+              "path": "src/img/Manga/Index_v8_c3_pg6_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/json/Mangá.json"
+            }
+          ]
+        },
+        {
+          "type": "folder",
           "name": "Tier List",
           "icon": "fas fa-folder",
           "children": [
@@ -185,17 +208,189 @@
               "path": "src/json/Characters.json"
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Manga Traduzidos",
+      "icon": "fas fa-folder",
+      "children": [
+        {
+          "type": "file",
+          "path": "src/img/Characters/Carissa.jpg"
         },
         {
-          "type": "folder",
-          "name": "Arcos",
-          "icon": "fas fa-folder",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/json/Arcs.json"
-            }
-          ]
+          "type": "file",
+          "path": "src/img/Characters/Chef.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Daigo.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Dolly.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Doppelganger.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Elizalina.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg10_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg11_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg12_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg13_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg14_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg15_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg16_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg17_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg18_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg19_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg1_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg20_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg21_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg22_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg23_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg24_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg25_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg26_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg27_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg28_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg29_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg2_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg30_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg31_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg32_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg33_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg34_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg35_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg36_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg37_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg3_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg4_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg5_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg6_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg7_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg8_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg9_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v3_c4_p24_pt.jpg"
         }
       ]
     }

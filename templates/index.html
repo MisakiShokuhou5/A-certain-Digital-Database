@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ project_name }} - Gerenciador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body { padding-bottom: 100px; }
+        .tree ul { padding-left: 20px; border-left: 1px solid #444; }
+        .tree li { list-style-type: none; margin: 8px 0; }
+        .file-item, .folder-item { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+        .item-name { display: flex; align-items: center; gap: 10px; }
+        .item-name .fa-fw, .item-name .bi { color: #0d6efd; }
+        .folder-item .item-name .fa-fw { color: #fd7e14; }
+        .btn-group-sm .btn { font-size: 0.75rem; }
+        .bulk-actions-bar { position: fixed; bottom: -100px; left: 50%; transform: translateX(-50%); transition: bottom 0.3s ease-in-out; z-index: 1050; }
+        .bulk-actions-bar.show { bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container mt-4 mb-5">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-4 pb-3 border-bottom border-secondary">
+            <div class="d-flex align-items-center mb-2 mb-md-0"><i class="bi bi-react text-info fs-1 me-3"></i><div><h1 class="display-6 mb-0">{{ project_name }}</h1><small class="text-muted">Painel de Gerenciamento do Manifesto</small></div></div>
+            <div class="btn-group"><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addFileModal"><i class="fas fa-plus-circle"></i> Adicionar Arquivo</button><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addFolderModal"><i class="fas fa-folder-plus"></i> Criar Seção</button></div>
+        </header>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}{% if messages %}{% for category, message in messages %}<div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">{{ message }}<button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>{% endfor %}{% endif %}{% endwith %}
+
+        <div class="row g-4">
+            {% macro render_main_tree(nodes) %}
+                <ul>
+                {% for node in nodes recursive %}
+                    <li>
+                        {% if node.type == 'folder' %}
+                            <div class="folder-item"><span class="item-name fs-5"><i class="fas {{ node.icon | default('fa-folder') }} fa-fw"></i> <strong>{{ node.name }}</strong></span></div>
+                            {% if node.children %}{{ loop(node.children) }}{% endif %}
+                        {% else %}
+                            <div class="file-item">
+                                <div class="item-name">
+                                    <input class="form-check-input file-checkbox" type="checkbox" value="{{ node.path }}">
+                                    <i class="fas fa-file-alt fa-fw"></i>
+                                    <div>{{ node.path.split('/')[-1] }}<br><small class="text-muted">{{ node.path }}</small></div>
+                                </div>
+                                <div class="btn-group btn-group-sm"><button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#renameModal" data-path="{{ node.path }}"><i class="fas fa-pencil-alt"></i> Renomear</button></div>
+                            </div>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endmacro %}
+            {% for top_level_folder in tree %}
+            <div class="col-md-12">
+                <div class="card bg-dark-subtle border-secondary section-card">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="mb-0"><i class="fas {{ top_level_folder.icon | default('fa-folder-open') }} fa-fw me-2"></i> {{ top_level_folder.name }}</h5>
+                        <div>
+                            <div class="form-check form-check-inline me-3" title="Selecionar todos nesta seção"><input class="form-check-input select-all-checkbox" type="checkbox"><label class="form-check-label small">Todos</label></div>
+                            <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#editFolderModal" data-name="{{ top_level_folder.name }}" data-icon="{{ top_level_folder.icon }}"><i class="fas fa-edit"></i> Editar Seção</button>
+                        </div>
+                    </div>
+                    <div class="card-body tree">{{ render_main_tree(top_level_folder.children) }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="bulkActionsBar" class="bulk-actions-bar card bg-dark-subtle border-secondary p-2"><div class="d-flex align-items-center gap-3"><strong id="selectionCount">0 selecionados</strong><div class="btn-group"><button class="btn btn-info btn-sm" id="bulkMoveBtn"><i class="fas fa-truck"></i> Mover</button><button class="btn btn-primary btn-sm" id="bulkCopyBtn"><i class="fas fa-copy"></i> Copiar</button><button class="btn btn-danger btn-sm" id="bulkDeleteBtn"><i class="fas fa-trash-alt"></i> Deletar</button></div><button class="btn-close" id="clearSelectionBtn" title="Limpar seleção"></button></div></div>
+    
+    <div class="modal fade" id="addFolderModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('add_folder') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Criar Seção</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Crie uma nova categoria principal no manifesto.</p><div class="mb-3"><label class="form-label">Nome da Seção</label><input type="text" class="form-control" name="folder_name" required></div><div class="mb-3"><label class="form-label">Ícone</label><input type="text" class="form-control" name="folder_icon" value="fas fa-folder"></div><div class="form-check"><input class="form-check-input" type="checkbox" name="create_physical_folder" value="true"><label class="form-check-label">Também criar pasta física</label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Criar Seção</button></div></form></div></div></div>
+    
+    <div class="modal fade" id="addFileModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><form action="{{ url_for('add_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Adicionar Arquivo ao Manifesto</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Selecione um ou mais arquivos (use Ctrl+Click ou Shift+Click).</p><div class="mb-3"><label class="form-label">Arquivo(s) a Adicionar:</label><select class="form-select" name="files_to_add" required multiple size="10">{% for file in untracked_files %}<option value="{{ file }}">{{ file }}</option>{% endfor %}</select></div><div class="mb-3"><label class="form-label">Adicionar na Seção:</label><select class="form-select" name="target_manifest_folder" required><option value="" disabled selected>Selecione uma seção...</option>{% for folder in manifest_folders %}<option value="{{ folder }}">{{ folder }}</option>{% endfor %}</select></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-success">Adicionar Selecionados</button></div></form></div></div></div>
+    
+    <div class="modal fade" id="editFolderModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('edit_folder') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Editar Seção</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><input type="hidden" name="original_name" id="edit_original_name"><div class="mb-3"><label class="form-label">Nome</label><input type="text" class="form-control" name="new_name" id="edit_new_name" required></div><div class="mb-3"><label class="form-label">Ícone</label><input type="text" class="form-control" name="new_icon" id="edit_new_icon"></div><div class="form-check"><input class="form-check-input" type="checkbox" name="rename_physical_folder" value="true"><label class="form-check-label">Renomear pasta física</label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Salvar</button></div></form></div></div></div>
+    <div class="modal fade" id="renameModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('rename_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Renomear Arquivo</h5></div><div class="modal-body"><p>Original: <code id="rename-original-path"></code></p><input type="hidden" name="original_path" id="rename-original-path-input"><div class="mb-3"><label class="form-label">Novo Nome:</label><input type="text" class="form-control" name="new_name" required id="new_name_input"></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Salvar</button></div></form></div></div></div>
+    <div class="modal fade" id="bulkActionModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form id="bulkActionForm" method="POST"><div class="modal-header"><h5 class="modal-title" id="bulkActionModalLabel"></h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p id="bulkActionText"></p><input type="hidden" name="source_paths" id="bulk_source_paths"><div class="mb-3"><label class="form-label">Pasta de destino:</label><select class="form-select" name="dest_folder" required>{% for folder in manifest_folders %}<option value="{{ folder }}">{{ folder }}</option>{% endfor %}</select></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary" id="bulkConfirmBtn"></button></div></form></div></div></div>
+    <div class="modal fade" id="bulkDeleteModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('delete_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Confirmar Exclusão</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p class="text-danger"><strong>Ação permanente!</strong></p><p id="bulkDeleteText"></p><input type="hidden" name="source_paths" id="bulk_delete_paths"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-danger">Deletar</button></div></form></div></div></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const bulkActionsBar = document.getElementById('bulkActionsBar');
+        const selectionCountEl = document.getElementById('selectionCount');
+        const allCheckboxes = document.querySelectorAll('.file-checkbox');
+        const selectAllCheckboxes = document.querySelectorAll('.select-all-checkbox');
+        let selectedFiles = [];
+        function updateSelection() {
+            selectedFiles = Array.from(allCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
+            if (selectedFiles.length > 0) {
+                selectionCountEl.textContent = `${selectedFiles.length} selecionado(s)`;
+                bulkActionsBar.classList.add('show');
+            } else {
+                bulkActionsBar.classList.remove('show');
+            }
+            selectAllCheckboxes.forEach(masterCb => {
+                const sectionCbs = masterCb.closest('.section-card').querySelectorAll('.file-checkbox');
+                const sectionSelected = masterCb.closest('.section-card').querySelectorAll('.file-checkbox:checked');
+                masterCb.checked = sectionCbs.length > 0 && sectionCbs.length === sectionSelected.length;
+                masterCb.indeterminate = sectionSelected.length > 0 && sectionSelected.length < sectionCbs.length;
+            });
+        }
+        allCheckboxes.forEach(cb => cb.addEventListener('change', updateSelection));
+        selectAllCheckboxes.forEach(masterCb => {
+            masterCb.addEventListener('change', () => {
+                masterCb.closest('.section-card').querySelectorAll('.file-checkbox').forEach(cb => cb.checked = masterCb.checked);
+                updateSelection();
+            });
+        });
+        document.getElementById('clearSelectionBtn').addEventListener('click', () => {
+            allCheckboxes.forEach(cb => cb.checked = false);
+            updateSelection();
+        });
+
+        const bulkActionModal = new bootstrap.Modal(document.getElementById('bulkActionModal'));
+        const bulkDeleteModal = new bootstrap.Modal(document.getElementById('bulkDeleteModal'));
+        document.getElementById('bulkMoveBtn').addEventListener('click', () => {
+            const form = document.getElementById('bulkActionForm');
+            form.action = "{{ url_for('move_file') }}";
+            document.getElementById('bulkActionModalLabel').textContent = 'Mover em Massa';
+            document.getElementById('bulkActionText').textContent = `Mover ${selectedFiles.length} arquivo(s).`;
+            document.getElementById('bulk_source_paths').value = selectedFiles.join(',');
+            document.getElementById('bulkConfirmBtn').textContent = 'Confirmar Movimentação';
+            document.getElementById('bulkConfirmBtn').className = 'btn btn-info';
+            bulkActionModal.show();
+        });
+        document.getElementById('bulkCopyBtn').addEventListener('click', () => {
+            const form = document.getElementById('bulkActionForm');
+            form.action = "{{ url_for('copy_file') }}";
+            document.getElementById('bulkActionModalLabel').textContent = 'Copiar em Massa';
+            document.getElementById('bulkActionText').textContent = `Copiar ${selectedFiles.length} arquivo(s).`;
+            document.getElementById('bulk_source_paths').value = selectedFiles.join(',');
+            document.getElementById('bulkConfirmBtn').textContent = 'Confirmar Cópia';
+            document.getElementById('bulkConfirmBtn').className = 'btn btn-primary';
+            bulkActionModal.show();
+        });
+        document.getElementById('bulkDeleteBtn').addEventListener('click', () => {
+            document.getElementById('bulkDeleteText').textContent = `Deletar permanentemente ${selectedFiles.length} arquivo(s)?`;
+            document.getElementById('bulk_delete_paths').value = selectedFiles.join(',');
+            bulkDeleteModal.show();
+        });
+        
+        const editFolderModal = document.getElementById('editFolderModal');
+        if(editFolderModal) editFolderModal.addEventListener('show.bs.modal', e => {
+            const name = e.relatedTarget.getAttribute('data-name'), icon = e.relatedTarget.getAttribute('data-icon');
+            editFolderModal.querySelector('#edit_original_name').value = name;
+            editFolderModal.querySelector('#edit_new_name').value = name;
+            editFolderModal.querySelector('#edit_new_icon').value = icon;
+        });
+        const renameModal = document.getElementById('renameModal');
+        if(renameModal) renameModal.addEventListener('show.bs.modal', e => {
+            const path = e.relatedTarget.getAttribute('data-path');
+            renameModal.querySelector('#rename-original-path').textContent = path;
+            renameModal.querySelector('#rename-original-path-input').value = path;
+            renameModal.querySelector('#new_name_input').value = path.split('/').pop();
+        });
+    });
+    </script>
+</body>
+</html>

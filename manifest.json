@@ -8,15 +8,7 @@
       "children": [
         {
           "type": "file",
-          "path": "src/json/toaru-majutsu-no-index.json"
-        },
-        {
-          "type": "file",
-          "path": "src/json/toaru-majutsu-no-index-II.json"
-        },
-        {
-          "type": "file",
-          "path": "src/json/toaru-majutsu-no-index-III.json"
+          "path": "src/json/Anime.json"
         },
         {
           "type": "file",
@@ -28,7 +20,15 @@
         },
         {
           "type": "file",
-          "path": "src/json/Anime.json"
+          "path": "src/json/toaru-majutsu-no-index-II.json"
+        },
+        {
+          "type": "file",
+          "path": "src/json/toaru-majutsu-no-index-III.json"
+        },
+        {
+          "type": "file",
+          "path": "src/json/toaru-majutsu-no-index.json"
         }
       ]
     },
@@ -50,6 +50,21 @@
       "children": [
         {
           "type": "folder",
+          "name": "Pagina Manga",
+          "icon": "fas fa-folder",
+          "children": [
+            {
+              "type": "file",
+              "path": "src/img/Manga/Accelerator_v3_c4_p23_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/anime-bg/principal.png"
+            }
+          ]
+        },
+        {
+          "type": "folder",
           "name": "anime-bg",
           "icon": "fas fa-photo-film",
           "children": [
@@ -60,33 +75,6 @@
             {
               "type": "file",
               "path": "src/img/anime-bg/principal.png"
-            }
-          ]
-        },
-        {
-          "type": "folder",
-          "name": "personagem",
-          "icon": "fas fa-user",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-com-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-sem-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/fundo-lest-order.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/DarkMatter_v1_c1_pg15_en.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator_v12_c5_pg10_pt.jpg"
             }
           ]
         },
@@ -108,11 +96,699 @@
           "children": [
             {
               "type": "file",
+              "path": "src/img/Characters/Accelerator.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Acqua.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Agnese.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Aika.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Aiwass.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Aleister.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Amata.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Angeline.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Aogami.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Asai.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Asakura.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Ayame.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Beiloupe.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Biagio.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Elizard.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Enjou.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Erii.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Esther.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Etzali.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Febrie.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Flamma.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Floris.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Fremea.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Frenda.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Fuigo.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Fukiyose.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Gabriel.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Gensei.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hamazura.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hanano.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hanzou.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Haruki.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Harumi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hebitani.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Himegami.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Himegi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hirotada.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hirumi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hisato.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hishigata.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Honoka.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Huotou.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Hyouka.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Iizumi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Index.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Iruka.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Itsuwa.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Izzard.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Janie.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Junko.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kaibi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kakine.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kaori.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kazan.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kazanin.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kazuko.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kenji.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kii.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kimi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kisa.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kiyoshi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/KnightLeader.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Komoe.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kosako.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kuriba.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Kuroko.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Lancis.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/LastOrder.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Laura.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Lessar.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Lidvia.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Lily.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Lin.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Lucia.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Maaya.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Maika.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Makigami.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mami.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Megumi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mei.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Miho.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mii.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mikagami.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mikoto.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Misaka10031.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Misakaworst.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Misaki.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Misuzu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mitori.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mitsuki.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mitsuko.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Monaka.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Mugino.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Musujime.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Nakimoto.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Naruha.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Oriana.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Orsola.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Ouma.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Ouyang.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Professor.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Raifu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Rakko.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Reiri.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Riko.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Rimea.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Rina.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Ringo.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Ritoku.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Rurikaesu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Saiai.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Saiji.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sakata.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Saku.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sakurai.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Saraku.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sasha.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Saten.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Satori.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Secretary.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Seike.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sena.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sha.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sherry.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Shinobu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Shiokishi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Shiokishi.webp"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Shiratori.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Shoubu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Shuri.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sogiita.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Souji.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Stephanie.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Styl.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Suika.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Sunazara.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Supervisor.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Suzuran.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tamezo.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tao.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tecpatl.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Telestina.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Terra.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Teshio.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tetsumou.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Thomas.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tochtl.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tomoka.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Touma.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tsuchimikado.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Tsurigane.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Uiharu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Umidori.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Vento.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Villian.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Wakana.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Wannai.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Wataru.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Xochtl.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yakumaru.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yamate.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yasu.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yobou.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yomikawa.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yoshikawa.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yoshio.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/Yumi.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/images.jpeg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Characters/kuruwa.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/Accelerator-com-IA-2025.jpg"
+            },
+            {
+              "type": "file",
               "path": "src/img/personagem/Accelerator-com-IA.jpg"
             },
             {
               "type": "file",
               "path": "src/img/personagem/Accelerator-sem-IA.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/Accelerator_v12_c5_pg10_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/DarkMatter_v1_c1_pg15_en.jpg"
             },
             {
               "type": "file",
@@ -122,16 +798,20 @@
         },
         {
           "type": "folder",
-          "name": "Pagina Manga",
-          "icon": "fas fa-folder",
+          "name": "personagem",
+          "icon": "fas fa-user",
           "children": [
             {
               "type": "file",
-              "path": "src/img/Manga/Accelerator_v3_c4_p23_pt.jpg"
+              "path": "src/img/personagem/Accelerator-com-IA.jpg"
             },
             {
               "type": "file",
-              "path": "src/img/anime-bg/principal.png"
+              "path": "src/img/personagem/Accelerator-sem-IA.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/personagem/fundo-lest-order.jpg"
             }
           ]
         }
@@ -144,23 +824,23 @@
       "children": [
         {
           "type": "folder",
-          "name": "Mangá",
-          "icon": "fas fa-folder",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/json/Mangá.json"
-            }
-          ]
-        },
-        {
-          "type": "folder",
           "name": "Anime",
           "icon": "fas fa-folder",
           "children": [
             {
               "type": "file",
               "path": "src/json/Anime.json"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Arcos",
+          "icon": "fas fa-folder",
+          "children": [
+            {
+              "type": "file",
+              "path": "src/json/Arcs.json"
             }
           ]
         },
@@ -177,6 +857,21 @@
         },
         {
           "type": "folder",
+          "name": "Mangá",
+          "icon": "fas fa-folder",
+          "children": [
+            {
+              "type": "file",
+              "path": "src/img/Manga/Index_v8_c3_pg6_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/json/Mangá.json"
+            }
+          ]
+        },
+        {
+          "type": "folder",
           "name": "Tier List",
           "icon": "fas fa-folder",
           "children": [
@@ -185,17 +880,189 @@
               "path": "src/json/Characters.json"
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Manga Traduzidos",
+      "icon": "fas fa-folder",
+      "children": [
+        {
+          "type": "file",
+          "path": "src/img/Characters/Carissa.jpg"
         },
         {
-          "type": "folder",
-          "name": "Arcos",
-          "icon": "fas fa-folder",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/json/Arcs.json"
-            }
-          ]
+          "type": "file",
+          "path": "src/img/Characters/Chef.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Daigo.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Dolly.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Doppelganger.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Characters/Elizalina.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg10_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg11_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg12_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg13_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg14_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg15_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg16_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg17_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg18_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg19_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg1_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg20_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg21_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg22_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg23_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg24_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg25_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg26_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg27_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg28_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg29_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg2_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg30_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg31_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg32_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg33_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg34_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg35_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg36_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg37_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg3_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg4_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg5_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg6_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg7_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg8_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v12_c5_pg9_pt.jpg"
+        },
+        {
+          "type": "file",
+          "path": "src/img/Manga/Accelerator_v3_c4_p24_pt.jpg"
         }
       ]
     }
