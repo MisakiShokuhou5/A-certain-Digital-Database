@@ -1,16 +1,16 @@
-# app.py (Versão Estável com Seleção Múltipla)
+# app.py (Versão Final com Sincronização Inteligente)
 import json
 import os
 import shutil
 from pathlib import Path
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
 
 app = Flask(__name__)
-app.secret_key = 'versao-estavel-final' 
+app.secret_key = 'sincronizacao-inteligente-final' 
 
 MANIFEST_FILE = "manifest.json"
 
-#region Funções Auxiliares (Backup, Load, Save)
+#region Funções Auxiliares e de Lógica (sem grandes alterações)
 def create_backup():
     if not os.path.exists(MANIFEST_FILE):
         flash(f"ERRO: {MANIFEST_FILE} não encontrado!", "danger"); return False
@@ -39,9 +39,7 @@ def save_manifest(data):
         return True
     except Exception as e:
         flash(f"ERRO CRÍTICO ao salvar {MANIFEST_FILE}: {e}", "danger"); return False
-#endregion
 
-#region Funções de Lógica do Manifesto
 def get_all_paths_in_manifest(nodes):
     paths = set()
     for node in nodes:
@@ -62,16 +60,6 @@ def get_untracked_files(manifest_paths):
                 untracked.append(path_str)
     return sorted(untracked)
 
-def get_manifest_folders(nodes, parent_path=''):
-    folders = []
-    for node in nodes:
-        if node.get("type") == "folder":
-            current_path = f"{parent_path}/{node['name']}" if parent_path else node['name']
-            folders.append(current_path)
-            if "children" in node:
-                folders.extend(get_manifest_folders(node["children"], current_path))
-    return folders
-
 def update_manifest(action, file_path_str, old_path_str=None, target_folder_path=None):
     manifest_data = load_manifest()
     if not manifest_data: return False
@@ -85,21 +73,11 @@ def update_manifest(action, file_path_str, old_path_str=None, target_folder_path
                     if not any(child.get('path') == file_path_str for child in node.get("children", [])):
                         node.setdefault("children", []).append({"type": "file", "path": file_path_str})
                     return True
-                if action == 'move':
-                    file_parent_dir = Path(file_path_str).parent.as_posix()
-                    if Path(node_path).name == Path(file_parent_dir).name:
-                         if not any(child.get('path') == file_path_str for child in node.get("children", [])):
-                            node.setdefault("children", []).append({"type": "file", "path": file_path_str})
-                         return True
                 if "children" in node and find_and_modify(node["children"], node_path): return True
         return False
     if find_and_modify(manifest_data["tree"]):
         return save_manifest(manifest_data)
     else:
-        if action == 'move':
-            manifest_data["tree"].append({"type": "file", "path": file_path_str})
-            flash("AVISO: Pasta de destino não encontrada. Arquivo adicionado à raiz.", "warning")
-            return save_manifest(manifest_data)
         flash(f"AVISO: A pasta de destino '{target_folder_path}' não pôde ser encontrada.", "warning")
         return False
 #endregion
@@ -108,26 +86,134 @@ def update_manifest(action, file_path_str, old_path_str=None, target_folder_path
 def index():
     manifest_data = load_manifest()
     if not manifest_data: return "<h1>Erro fatal: Não foi possível carregar o manifest.json</h1>"
-    
-    manifest_paths = get_all_paths_in_manifest(manifest_data.get('tree', []))
-    untracked_files = get_untracked_files(manifest_paths)
-    manifest_folders = get_manifest_folders(manifest_data.get('tree', []))
-    
-    return render_template('index.html', 
-                           tree=manifest_data.get('tree', []), 
-                           project_name=manifest_data.get('project_name', 'Gerenciador'),
-                           untracked_files=untracked_files,
-                           manifest_folders=manifest_folders)
+    return render_template('index.html', project_name=manifest_data.get('project_name', 'Gerenciador'), tree=manifest_data.get('tree', []))
 
-#region Rotas de Ação
+# --- NOVAS ROTAS DE SINCRONIZAÇÃO INTELIGENTE ---
+@app.route('/analyze_sync')
+def analyze_sync():
+    """Analisa o manifesto e o sistema de arquivos e retorna as diferenças."""
+    manifest_data = load_manifest()
+    if not manifest_data:
+        return jsonify({"error": "Não foi possível carregar o manifest.json"}), 500
+    
+    paths_in_manifest = get_all_paths_in_manifest(manifest_data.get('tree', []))
+    
+    # Encontra links quebrados (arquivos no manifesto que não existem no disco)
+    broken_links = [p for p in paths_in_manifest if not Path(p).exists()]
+    
+    # Encontra arquivos não rastreados (arquivos no disco que não estão no manifesto)
+    untracked_files = get_untracked_files(paths_in_manifest)
+    
+    return jsonify({
+        "broken_links": sorted(broken_links),
+        "untracked_files": untracked_files
+    })
+
+@app.route('/execute_sync', methods=['POST'])
+def execute_sync():
+    """Executa a limpeza do manifesto, removendo os links quebrados."""
+    if not create_backup():
+        return redirect(url_for('index'))
+        
+    manifest_data = load_manifest()
+    paths_in_manifest = get_all_paths_in_manifest(manifest_data.get('tree', []))
+    broken_paths_set = {p for p in paths_in_manifest if not Path(p).exists()}
+
+    if not broken_paths_set:
+        flash("Nenhum link quebrado encontrado. O manifesto já está limpo!", "info")
+        return redirect(url_for('index'))
+
+    def _clean_tree_recursive(nodes):
+        """Função auxiliar para remover recursivamente nós com caminhos quebrados."""
+        initial_count = len(nodes)
+        nodes[:] = [node for node in nodes if node.get('path', '') not in broken_paths_set]
+        
+        for node in nodes:
+            if node.get("type") == "folder" and "children" in node:
+                _clean_tree_recursive(node["children"])
+    
+    _clean_tree_recursive(manifest_data['tree'])
+    
+    if save_manifest(manifest_data):
+        flash(f"Sincronização completa! {len(broken_paths_set)} link(s) quebrado(s) foram removidos do manifesto.", "success")
+    
+    return redirect(url_for('index'))
+
+#region Outras Rotas de Ação (A-Z)
+@app.route('/add', methods=['POST'])
+def add_file():
+    files_to_add = request.form.getlist('files_to_add')
+    target_folder = request.form.get('target_manifest_folder')
+    if not files_to_add or not target_folder:
+        flash("Nenhum arquivo ou pasta de destino selecionada.", "warning"); return redirect(url_for('index'))
+    if create_backup():
+        added_count = 0
+        for file_path in files_to_add:
+            if update_manifest('add', file_path, target_folder_path=target_folder):
+                added_count += 1
+        if added_count > 0:
+            flash(f"{added_count} arquivo(s) adicionado(s) à seção '{target_folder}'!", "success")
+    return redirect(url_for('index'))
+
+@app.route('/add_folder', methods=['POST'])
+def add_folder():
+    folder_name = request.form.get('folder_name'); folder_icon = request.form.get('folder_icon', 'fas fa-folder'); create_physical = request.form.get('create_physical_folder')
+    if not folder_name:
+        flash('O nome da seção não pode ser vazio!', 'danger'); return redirect(url_for('index'))
+    manifest_data = load_manifest()
+    if any(folder.get('name') == folder_name for folder in manifest_data.get('tree', [])):
+        flash(f"A seção '{folder_name}' já existe!", 'warning'); return redirect(url_for('index'))
+    if create_backup():
+        if create_physical:
+            try:
+                new_dir = Path(folder_name)
+                if not new_dir.exists(): new_dir.mkdir(); flash(f"Pasta física '{folder_name}' criada.", "info")
+                else: flash(f"A pasta física '{folder_name}' já existe.", "info")
+            except Exception as e:
+                flash(f"Erro ao criar pasta física: {e}", "danger"); return redirect(url_for('index'))
+        new_folder_obj = {"type": "folder", "name": folder_name, "icon": folder_icon, "children": []}
+        manifest_data['tree'].append(new_folder_obj)
+        if save_manifest(manifest_data): flash(f"Nova seção '{folder_name}' adicionada!", 'success')
+    return redirect(url_for('index'))
+
+@app.route('/copy', methods=['POST'])
+def copy_file():
+    paths_str = request.form.get('source_paths'); dest_folder = request.form.get('dest_folder')
+    if not paths_str: flash("Nenhum arquivo selecionado.", "warning"); return redirect(url_for('index'))
+    paths = paths_str.split(',')
+    if create_backup():
+        count = 0
+        for path in paths:
+            source_obj = Path(path); dest_obj = Path(dest_folder) / source_obj.name
+            if dest_obj.exists(): flash(f"Erro: '{dest_obj.name}' já existe. Pulando.", "danger"); continue
+            try: shutil.copy2(source_obj, dest_obj); update_manifest('add', dest_obj.as_posix(), target_folder_path=dest_folder); count += 1
+            except Exception as e: flash(f"Erro ao copiar '{source_obj.name}': {e}", "danger")
+        if count > 0: flash(f"{count} arquivo(s) copiado(s) para '{dest_folder}'!", "success")
+    return redirect(url_for('index'))
+
+@app.route('/delete', methods=['POST'])
+def delete_file():
+    paths_str = request.form.get('source_paths')
+    if not paths_str: flash("Nenhum arquivo selecionado.", "warning"); return redirect(url_for('index'))
+    paths = paths_str.split(',')
+    if create_backup():
+        count = 0
+        for path_str in paths:
+            try:
+                # Tenta deletar o arquivo físico, mas não para se ele não existir
+                if Path(path_str).exists(): Path(path_str).unlink()
+                # Sempre remove do manifesto
+                update_manifest('remove', path_str, old_path_str=path_str)
+                count += 1
+            except Exception as e: flash(f"Erro ao processar '{path_str}': {e}", "danger")
+        if count > 0: flash(f"{count} referência(s) processada(s) para exclusão!", "success")
+    return redirect(url_for('index'))
+
 @app.route('/edit_folder', methods=['POST'])
 def edit_folder():
-    original_name = request.form.get('original_name')
-    new_name = request.form.get('new_name')
-    new_icon = request.form.get('new_icon', 'fas fa-folder')
-    rename_physical = request.form.get('rename_physical_folder')
+    original_name = request.form.get('original_name'); new_name = request.form.get('new_name'); new_icon = request.form.get('new_icon', 'fas fa-folder'); rename_physical = request.form.get('rename_physical_folder')
     if not new_name:
-        flash('O novo nome da seção não pode ser vazio!', 'danger'); return redirect(url_for('index'))
+        flash('O nome da seção não pode ser vazio!', 'danger'); return redirect(url_for('index'))
     manifest = load_manifest()
     if any(f.get('name') == new_name for f in manifest['tree'] if f.get('name') != original_name):
         flash(f"Uma seção com o nome '{new_name}' já existe!", 'danger'); return redirect(url_for('index'))
@@ -141,78 +227,17 @@ def edit_folder():
                         for child in folder_to_edit['children']:
                             if child.get('type') == 'file' and child.get('path'):
                                 child['path'] = child['path'].replace(f"{original_name}/", f"{new_name}/", 1)
-                    flash(f"Pasta física renomeada de '{original_name}' para '{new_name}'.", 'info')
+                    flash(f"Pasta física renomeada.", 'info')
                 except Exception as e:
                     flash(f"Erro ao renomear pasta física: {e}", "danger"); return redirect(url_for('index'))
-            folder_to_edit['name'] = new_name
-            folder_to_edit['icon'] = new_icon
-            if save_manifest(manifest):
-                flash(f"Seção '{original_name}' atualizada para '{new_name}' com sucesso!", 'success')
-        else:
-            flash(f"Erro: Seção '{original_name}' não encontrada.", 'danger')
-    return redirect(url_for('index'))
-
-@app.route('/add_folder', methods=['POST'])
-def add_folder():
-    folder_name = request.form.get('folder_name')
-    folder_icon = request.form.get('folder_icon', 'fas fa-folder')
-    create_physical = request.form.get('create_physical_folder')
-    if not folder_name:
-        flash('O nome da seção não pode ser vazio!', 'danger'); return redirect(url_for('index'))
-    manifest_data = load_manifest()
-    if any(folder.get('name') == folder_name for folder in manifest_data.get('tree', [])):
-        flash(f"A seção '{folder_name}' já existe!", 'warning'); return redirect(url_for('index'))
-    if create_backup():
-        if create_physical:
-            try:
-                new_dir = Path(folder_name)
-                if not new_dir.exists():
-                    new_dir.mkdir(); flash(f"Pasta física '{folder_name}' criada.", "info")
-                else: flash(f"A pasta física '{folder_name}' já existe.", "info")
-            except Exception as e:
-                flash(f"Erro ao criar pasta física: {e}", "danger"); return redirect(url_for('index'))
-        new_folder_obj = {"type": "folder", "name": folder_name, "icon": folder_icon, "children": []}
-        manifest_data['tree'].append(new_folder_obj)
-        if save_manifest(manifest_data):
-            flash(f"Nova seção '{folder_name}' adicionada!", 'success')
-    return redirect(url_for('index'))
-
-@app.route('/add', methods=['POST'])
-def add_file():
-    # MODIFICADO: Usa getlist para aceitar múltiplos arquivos
-    files_to_add = request.form.getlist('files_to_add')
-    target_folder = request.form.get('target_manifest_folder')
-    
-    if not files_to_add or not target_folder:
-        flash("Nenhum arquivo ou pasta de destino selecionada.", "warning")
-        return redirect(url_for('index'))
-    
-    if create_backup():
-        added_count = 0
-        for file_path in files_to_add:
-            if update_manifest('add', file_path, target_folder_path=target_folder):
-                added_count += 1
-        if added_count > 0:
-            flash(f"{added_count} arquivo(s) adicionado(s) à seção '{target_folder}'!", "success")
-    return redirect(url_for('index'))
-
-@app.route('/delete', methods=['POST'])
-def delete_file():
-    paths_str = request.form.get('source_paths')
-    if not paths_str: flash("Nenhum arquivo selecionado.", "warning"); return redirect(url_for('index'))
-    paths = paths_str.split(',')
-    if create_backup():
-        count = 0
-        for path in paths:
-            try: Path(path).unlink(); update_manifest('remove', path, old_path_str=path); count += 1
-            except Exception as e: flash(f"Erro ao deletar '{path}': {e}", "danger")
-        if count > 0: flash(f"{count} arquivo(s) deletado(s)!", "success")
+            folder_to_edit['name'] = new_name; folder_to_edit['icon'] = new_icon
+            if save_manifest(manifest): flash(f"Seção '{original_name}' atualizada para '{new_name}'!", 'success')
+        else: flash(f"Erro: Seção '{original_name}' não encontrada.", 'danger')
     return redirect(url_for('index'))
 
 @app.route('/move', methods=['POST'])
 def move_file():
-    paths_str = request.form.get('source_paths')
-    dest_folder = request.form.get('dest_folder')
+    paths_str = request.form.get('source_paths'); dest_folder = request.form.get('dest_folder')
     if not paths_str: flash("Nenhum arquivo selecionado.", "warning"); return redirect(url_for('index'))
     paths = paths_str.split(',')
     if create_backup():
@@ -223,22 +248,6 @@ def move_file():
             try: shutil.move(source_obj, dest_obj); update_manifest('move', dest_obj.as_posix(), old_path_str=path); count += 1
             except Exception as e: flash(f"Erro ao mover '{source_obj.name}': {e}", "danger")
         if count > 0: flash(f"{count} arquivo(s) movido(s) para '{dest_folder}'!", "success")
-    return redirect(url_for('index'))
-
-@app.route('/copy', methods=['POST'])
-def copy_file():
-    paths_str = request.form.get('source_paths')
-    dest_folder = request.form.get('dest_folder')
-    if not paths_str: flash("Nenhum arquivo selecionado.", "warning"); return redirect(url_for('index'))
-    paths = paths_str.split(',')
-    if create_backup():
-        count = 0
-        for path in paths:
-            source_obj = Path(path); dest_obj = Path(dest_folder) / source_obj.name
-            if dest_obj.exists(): flash(f"Erro: '{dest_obj.name}' já existe. Pulando.", "danger"); continue
-            try: shutil.copy2(source_obj, dest_obj); update_manifest('add', dest_obj.as_posix(), target_folder_path=dest_folder); count += 1
-            except Exception as e: flash(f"Erro ao copiar '{source_obj.name}': {e}", "danger")
-        if count > 0: flash(f"{count} arquivo(s) copiado(s) para '{dest_folder}'!", "success")
     return redirect(url_for('index'))
 
 @app.route('/rename', methods=['POST'])

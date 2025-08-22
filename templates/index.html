@@ -18,17 +18,26 @@
         .btn-group-sm .btn { font-size: 0.75rem; }
         .bulk-actions-bar { position: fixed; bottom: -100px; left: 50%; transform: translateX(-50%); transition: bottom 0.3s ease-in-out; z-index: 1050; }
         .bulk-actions-bar.show { bottom: 20px; }
+        .sync-list { max-height: 200px; overflow-y: auto; font-size: 0.9em; }
     </style>
 </head>
 <body>
     <div class="container mt-4 mb-5">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-4 pb-3 border-bottom border-secondary">
-            <div class="d-flex align-items-center mb-2 mb-md-0"><i class="bi bi-react text-info fs-1 me-3"></i><div><h1 class="display-6 mb-0">{{ project_name }}</h1><small class="text-muted">Painel de Gerenciamento do Manifesto</small></div></div>
-            <div class="btn-group"><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addFileModal"><i class="fas fa-plus-circle"></i> Adicionar Arquivo</button><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addFolderModal"><i class="fas fa-folder-plus"></i> Criar Seção</button></div>
+            <div class="d-flex align-items-center mb-2 mb-md-0"><i class="bi bi-react text-info fs-1 me-3"></i><div><h1 class="display-6 mb-0">{{ project_name }}</h1><small class="text-muted">Painel de Gerenciamento</small></div></div>
+            <div class="btn-toolbar">
+                <div class="btn-group me-2">
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addFileModal"><i class="fas fa-plus-circle"></i> Adicionar</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addFolderModal"><i class="fas fa-folder-plus"></i> Criar Seção</button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#syncModal"><i class="fas fa-sync-alt"></i> Sincronizar</button>
+                </div>
+            </div>
         </header>
 
         {% with messages = get_flashed_messages(with_categories=true) %}{% if messages %}{% for category, message in messages %}<div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">{{ message }}<button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>{% endfor %}{% endif %}{% endwith %}
-
+        
         <div class="row g-4">
             {% macro render_main_tree(nodes) %}
                 <ul>
@@ -44,7 +53,12 @@
                                     <i class="fas fa-file-alt fa-fw"></i>
                                     <div>{{ node.path.split('/')[-1] }}<br><small class="text-muted">{{ node.path }}</small></div>
                                 </div>
-                                <div class="btn-group btn-group-sm"><button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#renameModal" data-path="{{ node.path }}"><i class="fas fa-pencil-alt"></i> Renomear</button></div>
+                                <div class="btn-group btn-group-sm">
+                                    <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#renameModal" data-path="{{ node.path }}"><i class="fas fa-pencil-alt"></i> Renomear</button>
+                                    <button class="btn btn-outline-info btn-move" data-path="{{ node.path }}"><i class="fas fa-truck"></i> Mover</button>
+                                    <button class="btn btn-outline-primary btn-copy" data-path="{{ node.path }}"><i class="fas fa-copy"></i> Copiar</button>
+                                    <button class="btn btn-outline-danger btn-delete" data-path="{{ node.path }}"><i class="fas fa-trash-alt"></i> Excluir</button>
+                                </div>
                             </div>
                         {% endif %}
                     </li>
@@ -70,18 +84,21 @@
 
     <div id="bulkActionsBar" class="bulk-actions-bar card bg-dark-subtle border-secondary p-2"><div class="d-flex align-items-center gap-3"><strong id="selectionCount">0 selecionados</strong><div class="btn-group"><button class="btn btn-info btn-sm" id="bulkMoveBtn"><i class="fas fa-truck"></i> Mover</button><button class="btn btn-primary btn-sm" id="bulkCopyBtn"><i class="fas fa-copy"></i> Copiar</button><button class="btn btn-danger btn-sm" id="bulkDeleteBtn"><i class="fas fa-trash-alt"></i> Deletar</button></div><button class="btn-close" id="clearSelectionBtn" title="Limpar seleção"></button></div></div>
     
-    <div class="modal fade" id="addFolderModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('add_folder') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Criar Seção</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Crie uma nova categoria principal no manifesto.</p><div class="mb-3"><label class="form-label">Nome da Seção</label><input type="text" class="form-control" name="folder_name" required></div><div class="mb-3"><label class="form-label">Ícone</label><input type="text" class="form-control" name="folder_icon" value="fas fa-folder"></div><div class="form-check"><input class="form-check-input" type="checkbox" name="create_physical_folder" value="true"><label class="form-check-label">Também criar pasta física</label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Criar Seção</button></div></form></div></div></div>
-    
+    <div class="modal fade" id="syncModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><form action="{{ url_for('execute_sync') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Sincronização Inteligente</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body" id="syncModalBody"><div class="text-center"><div class="spinner-border text-warning" role="status"></div><p class="mt-2">Analisando...</p></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-warning" id="executeSyncBtn" disabled>Limpar Links Quebrados</button></div></form></div></div></div>
     <div class="modal fade" id="addFileModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><form action="{{ url_for('add_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Adicionar Arquivo ao Manifesto</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Selecione um ou mais arquivos (use Ctrl+Click ou Shift+Click).</p><div class="mb-3"><label class="form-label">Arquivo(s) a Adicionar:</label><select class="form-select" name="files_to_add" required multiple size="10">{% for file in untracked_files %}<option value="{{ file }}">{{ file }}</option>{% endfor %}</select></div><div class="mb-3"><label class="form-label">Adicionar na Seção:</label><select class="form-select" name="target_manifest_folder" required><option value="" disabled selected>Selecione uma seção...</option>{% for folder in manifest_folders %}<option value="{{ folder }}">{{ folder }}</option>{% endfor %}</select></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-success">Adicionar Selecionados</button></div></form></div></div></div>
-    
+    <div class="modal fade" id="addFolderModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('add_folder') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Criar Seção</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Crie uma nova categoria principal no manifesto.</p><div class="mb-3"><label class="form-label">Nome da Seção</label><input type="text" class="form-control" name="folder_name" required></div><div class="mb-3"><label class="form-label">Ícone</label><input type="text" class="form-control" name="folder_icon" value="fas fa-folder"></div><div class="form-check"><input class="form-check-input" type="checkbox" name="create_physical_folder" value="true"><label class="form-check-label">Também criar pasta física</label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Criar Seção</button></div></form></div></div></div>
     <div class="modal fade" id="editFolderModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('edit_folder') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Editar Seção</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><input type="hidden" name="original_name" id="edit_original_name"><div class="mb-3"><label class="form-label">Nome</label><input type="text" class="form-control" name="new_name" id="edit_new_name" required></div><div class="mb-3"><label class="form-label">Ícone</label><input type="text" class="form-control" name="new_icon" id="edit_new_icon"></div><div class="form-check"><input class="form-check-input" type="checkbox" name="rename_physical_folder" value="true"><label class="form-check-label">Renomear pasta física</label></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Salvar</button></div></form></div></div></div>
     <div class="modal fade" id="renameModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('rename_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Renomear Arquivo</h5></div><div class="modal-body"><p>Original: <code id="rename-original-path"></code></p><input type="hidden" name="original_path" id="rename-original-path-input"><div class="mb-3"><label class="form-label">Novo Nome:</label><input type="text" class="form-control" name="new_name" required id="new_name_input"></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary">Salvar</button></div></form></div></div></div>
     <div class="modal fade" id="bulkActionModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form id="bulkActionForm" method="POST"><div class="modal-header"><h5 class="modal-title" id="bulkActionModalLabel"></h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p id="bulkActionText"></p><input type="hidden" name="source_paths" id="bulk_source_paths"><div class="mb-3"><label class="form-label">Pasta de destino:</label><select class="form-select" name="dest_folder" required>{% for folder in manifest_folders %}<option value="{{ folder }}">{{ folder }}</option>{% endfor %}</select></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-primary" id="bulkConfirmBtn"></button></div></form></div></div></div>
-    <div class="modal fade" id="bulkDeleteModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('delete_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title">Confirmar Exclusão</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p class="text-danger"><strong>Ação permanente!</strong></p><p id="bulkDeleteText"></p><input type="hidden" name="source_paths" id="bulk_delete_paths"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-danger">Deletar</button></div></form></div></div></div>
+    <div class="modal fade" id="bulkDeleteModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="{{ url_for('delete_file') }}" method="POST"><div class="modal-header"><h5 class="modal-title" id="bulkDeleteModalLabel">Confirmar Exclusão</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p class="text-danger"><strong>Ação permanente!</strong></p><p id="bulkDeleteText"></p><input type="hidden" name="source_paths" id="bulk_delete_paths"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-danger">Deletar</button></div></form></div></div></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', () => {
+        const bulkActionModal = new bootstrap.Modal(document.getElementById('bulkActionModal'));
+        const bulkDeleteModal = new bootstrap.Modal(document.getElementById('bulkDeleteModal'));
+        
+        // --- Lógica da Seleção Múltipla ---
         const bulkActionsBar = document.getElementById('bulkActionsBar');
         const selectionCountEl = document.getElementById('selectionCount');
         const allCheckboxes = document.querySelectorAll('.file-checkbox');
@@ -114,34 +131,65 @@
             updateSelection();
         });
 
-        const bulkActionModal = new bootstrap.Modal(document.getElementById('bulkActionModal'));
-        const bulkDeleteModal = new bootstrap.Modal(document.getElementById('bulkDeleteModal'));
-        document.getElementById('bulkMoveBtn').addEventListener('click', () => {
-            const form = document.getElementById('bulkActionForm');
-            form.action = "{{ url_for('move_file') }}";
-            document.getElementById('bulkActionModalLabel').textContent = 'Mover em Massa';
-            document.getElementById('bulkActionText').textContent = `Mover ${selectedFiles.length} arquivo(s).`;
-            document.getElementById('bulk_source_paths').value = selectedFiles.join(',');
-            document.getElementById('bulkConfirmBtn').textContent = 'Confirmar Movimentação';
-            document.getElementById('bulkConfirmBtn').className = 'btn btn-info';
-            bulkActionModal.show();
-        });
-        document.getElementById('bulkCopyBtn').addEventListener('click', () => {
-            const form = document.getElementById('bulkActionForm');
-            form.action = "{{ url_for('copy_file') }}";
-            document.getElementById('bulkActionModalLabel').textContent = 'Copiar em Massa';
-            document.getElementById('bulkActionText').textContent = `Copiar ${selectedFiles.length} arquivo(s).`;
-            document.getElementById('bulk_source_paths').value = selectedFiles.join(',');
-            document.getElementById('bulkConfirmBtn').textContent = 'Confirmar Cópia';
-            document.getElementById('bulkConfirmBtn').className = 'btn btn-primary';
-            bulkActionModal.show();
-        });
-        document.getElementById('bulkDeleteBtn').addEventListener('click', () => {
-            document.getElementById('bulkDeleteText').textContent = `Deletar permanentemente ${selectedFiles.length} arquivo(s)?`;
-            document.getElementById('bulk_delete_paths').value = selectedFiles.join(',');
-            bulkDeleteModal.show();
-        });
+        // --- Lógica dos Botões de Ação ---
+        document.getElementById('bulkMoveBtn').addEventListener('click', () => openActionModal('move'));
+        document.getElementById('bulkCopyBtn').addEventListener('click', () => openActionModal('copy'));
+        document.getElementById('bulkDeleteBtn').addEventListener('click', () => openActionModal('delete'));
+        document.querySelectorAll('.btn-move').forEach(btn => btn.addEventListener('click', () => openActionModal('move', btn.dataset.path)));
+        document.querySelectorAll('.btn-copy').forEach(btn => btn.addEventListener('click', () => openActionModal('copy', btn.dataset.path)));
+        document.querySelectorAll('.btn-delete').forEach(btn => btn.addEventListener('click', () => openActionModal('delete', btn.dataset.path)));
         
+        function openActionModal(action, singlePath = null) {
+            const paths = singlePath ? [singlePath] : selectedFiles;
+            if (paths.length === 0) return;
+            const pathList = paths.join(','), count = paths.length, fileName = singlePath ? singlePath.split('/').pop() : '';
+            if (action === 'move' || action === 'copy') {
+                const form = document.getElementById('bulkActionForm'), title = document.getElementById('bulkActionModalLabel'), text = document.getElementById('bulkActionText'), confirmBtn = document.getElementById('bulkConfirmBtn');
+                form.action = `{{ url_for('index') }}${action}`;
+                document.getElementById('bulk_source_paths').value = pathList;
+                if (action === 'move') {
+                    title.textContent = singlePath ? 'Mover Arquivo' : 'Mover em Massa';
+                    text.textContent = singlePath ? `Mover: ${fileName}` : `Mover ${count} arquivos.`;
+                    confirmBtn.textContent = 'Confirmar Movimentação'; confirmBtn.className = 'btn btn-info';
+                } else {
+                    title.textContent = singlePath ? 'Copiar Arquivo' : 'Copiar em Massa';
+                    text.textContent = singlePath ? `Copiar: ${fileName}` : `Copiar ${count} arquivos.`;
+                    confirmBtn.textContent = 'Confirmar Cópia'; confirmBtn.className = 'btn btn-primary';
+                }
+                bulkActionModal.show();
+            } else if (action === 'delete') {
+                const title = document.getElementById('bulkDeleteModalLabel'), text = document.getElementById('bulkDeleteText');
+                title.textContent = singlePath ? 'Confirmar Exclusão' : 'Confirmar Exclusão em Massa';
+                text.textContent = singlePath ? `Deletar permanentemente: ${fileName}?` : `Deletar permanentemente os ${count} arquivos selecionados?`;
+                document.getElementById('bulk_delete_paths').value = pathList;
+                bulkDeleteModal.show();
+            }
+        }
+        
+        // --- Lógica dos Modais de Configuração (Sync, Edit, Rename) ---
+        const syncModal = document.getElementById('syncModal');
+        if (syncModal) {
+            syncModal.addEventListener('show.bs.modal', () => {
+                const modalBody = document.getElementById('syncModalBody'), executeBtn = document.getElementById('executeSyncBtn');
+                modalBody.innerHTML = '<div class="text-center"><div class="spinner-border text-warning" role="status"></div><p class="mt-2">Analisando...</p></div>';
+                executeBtn.disabled = true;
+                fetch("{{ url_for('analyze_sync') }}").then(res => res.json()).then(data => {
+                    let content = '';
+                    if (data.broken_links && data.broken_links.length > 0) {
+                        content += `<h6><i class="fas fa-unlink text-danger"></i> ${data.broken_links.length} Link(s) Quebrado(s)</h6><p class="text-muted small">Serão removidos do manifesto.</p><ul class="list-group list-group-flush sync-list">`;
+                        data.broken_links.forEach(link => { content += `<li class="list-group-item bg-transparent text-danger py-1">${link}</li>`; });
+                        content += '</ul>'; executeBtn.disabled = false;
+                    } else { content += '<h6><i class="fas fa-check-circle text-success"></i> Nenhum Link Quebrado</h6>'; }
+                    content += '<hr>';
+                    if (data.untracked_files && data.untracked_files.length > 0) {
+                        content += `<h6><i class="fas fa-file-medical text-info"></i> ${data.untracked_files.length} Arquivo(s) Novo(s)</h6><p class="text-muted small">Use "Adicionar Arquivo" para incluí-los.</p><ul class="list-group list-group-flush sync-list">`;
+                        data.untracked_files.forEach(file => { content += `<li class="list-group-item bg-transparent py-1">${file}</li>`; });
+                        content += '</ul>';
+                    } else { content += '<h6><i class="fas fa-check-circle text-success"></i> Nenhum Arquivo Novo</h6>'; }
+                    modalBody.innerHTML = content;
+                }).catch(error => { modalBody.innerHTML = '<p class="text-danger">Erro ao analisar o projeto.</p>'; console.error(error); });
+            });
+        }
         const editFolderModal = document.getElementById('editFolderModal');
         if(editFolderModal) editFolderModal.addEventListener('show.bs.modal', e => {
             const name = e.relatedTarget.getAttribute('data-name'), icon = e.relatedTarget.getAttribute('data-icon');

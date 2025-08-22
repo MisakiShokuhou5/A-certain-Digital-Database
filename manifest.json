@@ -55,11 +55,19 @@
           "children": [
             {
               "type": "file",
-              "path": "src/img/Manga/Accelerator_v3_c4_p23_pt.jpg"
+              "path": "src/img/Manga/Index_v7_c2_pg24_pt.jpg"
             },
             {
               "type": "file",
-              "path": "src/img/anime-bg/principal.png"
+              "path": "src/img/Manga/Index_v7_c2_pg25_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Manga/Index_v7_c2_pg26_pt.jpg"
+            },
+            {
+              "type": "file",
+              "path": "src/img/Manga/Index_v7_c2_pg27_pt.jpg"
             }
           ]
         },
@@ -71,10 +79,6 @@
             {
               "type": "file",
               "path": "src/img/anime-bg/poster-1.png"
-            },
-            {
-              "type": "file",
-              "path": "src/img/anime-bg/principal.png"
             }
           ]
         },
@@ -776,23 +780,11 @@
             },
             {
               "type": "file",
-              "path": "src/img/personagem/Accelerator-com-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-sem-IA.jpg"
-            },
-            {
-              "type": "file",
               "path": "src/img/personagem/Accelerator_v12_c5_pg10_pt.jpg"
             },
             {
               "type": "file",
               "path": "src/img/personagem/DarkMatter_v1_c1_pg15_en.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/fundo-lest-order.jpg"
             }
           ]
         },
@@ -800,20 +792,7 @@
           "type": "folder",
           "name": "personagem",
           "icon": "fas fa-user",
-          "children": [
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-com-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/Accelerator-sem-IA.jpg"
-            },
-            {
-              "type": "file",
-              "path": "src/img/personagem/fundo-lest-order.jpg"
-            }
-          ]
+          "children": []
         }
       ]
     },
@@ -887,184 +866,7 @@
       "type": "folder",
       "name": "Manga Traduzidos",
       "icon": "fas fa-folder",
-      "children": [
-        {
-          "type": "file",
-          "path": "src/img/Characters/Carissa.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Characters/Chef.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Characters/Daigo.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Characters/Dolly.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Characters/Doppelganger.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Characters/Elizalina.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg10_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg11_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg12_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg13_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg14_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg15_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg16_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg17_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg18_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg19_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg1_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg20_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg21_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg22_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg23_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg24_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg25_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg26_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg27_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg28_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg29_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg2_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg30_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg31_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg32_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg33_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg34_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg35_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg36_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg37_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg3_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg4_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg5_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg6_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg7_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg8_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v12_c5_pg9_pt.jpg"
-        },
-        {
-          "type": "file",
-          "path": "src/img/Manga/Accelerator_v3_c4_p24_pt.jpg"
-        }
-      ]
+      "children": []
     }
   ]
 }
